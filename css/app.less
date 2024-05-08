@@ -1,0 +1,52 @@
+@media only screen and (min-width: 2000px) {
+  body,
+  html {
+    font-size: 0.85vw;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html {
+  display: block;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    #headerImg {
+      width: 112/16em;
+      height: auto;
+    }
+  }
+}
+
+nav {
+    font-weight: 400;
+    ul.navMenu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    li {
+      list-style: none;
+      margin-left: 14/16em;
+      margin-right: 14/16em;
+      padding-top: 3/16em;
+    }
+    a {
+      color: black;
+    }
+    a:hover {
+      color: #800080;
+    }
+  }

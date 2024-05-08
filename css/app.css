@@ -1,0 +1,45 @@
+@media only screen and (min-width: 2000px) {
+  body,
+  html {
+    font-size: 0.85vw;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html {
+  display: block;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo #headerImg {
+  width: 7em;
+  height: auto;
+}
+nav {
+  font-weight: 400;
+}
+nav ul.navMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+nav li {
+  list-style: none;
+  margin-left: 0.875em;
+  margin-right: 0.875em;
+  padding-top: 0.1875em;
+}
+nav a {
+  color: black;
+}
+nav a:hover {
+  color: #800080;
+}
