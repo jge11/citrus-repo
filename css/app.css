@@ -14,19 +14,27 @@ html {
   display: block;
 }
 header {
-  width: 100%;
+  width: 90%;
   z-index: 999;
-  position: relative;
-}
-header #headerImg {
-  width: 7em;
-  height: auto;
+  position: sticky;
+  top: 0;
+  left: 4%;
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+nav a#imgLink {
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+nav #headerImg {
+  width: 7em;
+  height: auto;
 }
 nav ul.navMenu {
   display: flex;

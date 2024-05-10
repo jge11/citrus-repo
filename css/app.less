@@ -16,14 +16,11 @@ html {
 }
 
 header {
-  width: 100%;
+  width: 90%;
   z-index: 999;
-  position: relative;
-
-  #headerImg {
-    width: 112/16em;
-    height: auto;
-  }
+  position: sticky;
+  top: 0;
+  left: 4%;
 }
 
 nav {
@@ -31,6 +28,17 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  a#imgLink {
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  #headerImg {
+    width: 112/16em;
+    height: auto;
+  }
 
   ul.navMenu {
     display: flex;
