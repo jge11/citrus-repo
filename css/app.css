@@ -38,7 +38,6 @@ nav #headerImg {
 }
 nav ul.navMenu {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
 }
 nav li {
@@ -64,8 +63,8 @@ nav a:hover {
 }
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 1.875em;
+  height: 0.2em;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -87,16 +86,12 @@ nav a:hover {
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 70px;
-    gap: 0;
+    top: 6em;
     flex-direction: column;
-    background-color: lightgray;
-    width: 73.5vw;
+    background-color: antiquewhite;
     text-align: center;
+    width: 100%;
     transition: 0.3s;
-  }
-  .navItem {
-    margin: 16px 0;
   }
   .navMenu.active {
     left: 0;

@@ -42,7 +42,7 @@ nav {
 
   ul.navMenu {
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     justify-content: space-around;
   }
 
@@ -72,8 +72,8 @@ nav {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 30/16em;
+  height: 3.2/16em;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -100,17 +100,12 @@ nav {
   .navMenu {
     position: fixed;
     left: -100%;
-    top: 70px;
-    gap: 0;
+    top: 96/16em;
     flex-direction: column;
-    background-color: lightgray;
-    width: 73.5vw;
+    background-color: antiquewhite;
     text-align: center;
+    width: 100%;
     transition: 0.3s;
-  }
-
-  .navItem {
-    margin: 16px 0;
   }
 
   .navMenu.active {
