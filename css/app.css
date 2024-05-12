@@ -70,7 +70,7 @@ nav a:hover {
   transition: all 0.3s ease-in-out;
   background: black;
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 700px) {
   .hamburger {
     display: block;
   }
@@ -96,4 +96,26 @@ nav a:hover {
   .navMenu.active {
     left: 0;
   }
+}
+.landingSection {
+  height: 30em;
+  background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
+}
+.cta {
+  background: white;
+  position: absolute;
+  display: flex;
+  top: 120px;
+  border-radius: 11px;
+  width: 21em;
+  height: auto;
+  left: 2em;
+  justify-content: center;
+}
+#uiUx {
+  background-color: #faad00;
+  border-radius: 15px;
+  margin-right: 5px;
+  margin-left: 9px;
+  position: relative;
 }
