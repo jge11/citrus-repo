@@ -119,3 +119,9 @@ nav a:hover {
   margin-left: 9px;
   position: relative;
 }
+.messageHeader {
+  display: flex;
+  position: absolute;
+  top: 6.5em;
+  color: #3e5856;
+}
