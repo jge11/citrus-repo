@@ -122,6 +122,13 @@ nav a:hover {
 .messageHeader {
   display: flex;
   position: absolute;
-  top: 6.5em;
+  top: 3em;
   color: #3e5856;
+  flex-wrap: wrap;
+  width: 9em;
+  line-height: 1.2em;
+  font-size: 3em;
+}
+.messageHeader #agency {
+  color: #096d7a;
 }
