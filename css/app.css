@@ -132,3 +132,6 @@ nav a:hover {
 .messageHeader #agency {
   color: #096d7a;
 }
+#messageSubText {
+  color: #3e585699;
+}
