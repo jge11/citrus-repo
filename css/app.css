@@ -98,7 +98,6 @@ nav a:hover {
   }
 }
 .landingSection {
-  height: 30em;
   background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
 .cta {
@@ -160,4 +159,7 @@ nav a:hover {
   font-weight: 600;
   position: relative;
   top: 1em;
+}
+.whatWeDo {
+  background-color: black;
 }
