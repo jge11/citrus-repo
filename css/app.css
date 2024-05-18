@@ -70,7 +70,7 @@ nav a:hover {
   transition: all 0.3s ease-in-out;
   background: black;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -159,6 +159,56 @@ nav a:hover {
   font-weight: 600;
   position: relative;
   top: 1em;
+}
+.agencyBanners {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+}
+.agencyBanners #webDesign {
+  display: inherit;
+  align-items: center;
+  position: inherit;
+  right: 10em;
+  height: min-content;
+  background: #d6eae599;
+  top: 11em;
+  border: 1px solid;
+  border-radius: 0.7em;
+}
+.agencyBanners #webDesign p {
+  padding-left: 15px;
+  width: max-content;
+}
+.agencyBanners #webHosting {
+  display: inherit;
+  align-items: center;
+  position: inherit;
+  right: 7em;
+  height: min-content;
+  background: #d6eae599;
+  top: 11em;
+  border: 1px solid;
+  border-radius: 0.7em;
+}
+.agencyBanners #webHosting p {
+  padding-left: 15px;
+  width: max-content;
+}
+.agencyBanners #appDesign {
+  display: inherit;
+  align-items: center;
+  position: inherit;
+  right: 5em;
+  height: min-content;
+  background: #d6eae599;
+  top: 11em;
+  border: 1px solid;
+  border-radius: 0.7em;
+}
+.agencyBanners #appDesign p {
+  padding-left: 15px;
+  width: max-content;
 }
 .whatWeDo {
   background-color: black;

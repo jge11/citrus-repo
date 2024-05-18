@@ -80,7 +80,8 @@ nav {
   background: black;
 }
 
-@media only screen and (max-width: 700px) {
+// header tablet mode styling
+@media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -113,6 +114,11 @@ nav {
   }
 }
 
+//hero section tablet mode
+// @media only screen and (max-width: 768px) {
+//   .heroSection {
+//   }
+// }
 .landingSection {
   background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
@@ -180,6 +186,73 @@ nav {
     font-weight: 600;
     position: relative;
     top: 16/16em;
+  }
+}
+
+.agencyBanners {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+
+  // #banner {
+  //   position: inherit;
+  //   left: 35em;
+  // }
+  #webDesign {
+    display: inherit;
+    align-items: center;
+    position: inherit;
+    right: 10em;
+    height: min-content;
+    background: #d6eae599;
+    top: 11em;
+    border: 1px solid;
+    border-radius: 0.7em;
+
+    // width: max-content;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
+  }
+
+  #webHosting {
+    display: inherit;
+    align-items: center;
+    position: inherit;
+    right: 7em;
+    height: min-content;
+    background: #d6eae599;
+    top: 11em;
+    border: 1px solid;
+    border-radius: 0.7em;
+
+    // width: max-content;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
+  }
+
+  #appDesign {
+    display: inherit;
+    align-items: center;
+    position: inherit;
+    right: 5em;
+    height: min-content;
+    background: #d6eae599;
+    top: 11em;
+    border: 1px solid;
+    border-radius: 0.7em;
+
+    // width: max-content;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
   }
 }
 
