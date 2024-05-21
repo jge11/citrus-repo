@@ -169,10 +169,10 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: 10em;
+  right: -12em;
   height: min-content;
   background: #d6eae599;
-  top: 11em;
+  top: 4em;
   border: 1px solid;
   border-radius: 0.7em;
 }
@@ -184,10 +184,10 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: 7em;
+  right: -48em;
   height: min-content;
   background: #d6eae599;
-  top: 11em;
+  top: 3em;
   border: 1px solid;
   border-radius: 0.7em;
 }
@@ -199,10 +199,10 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: 5em;
+  right: -44em;
   height: min-content;
   background: #d6eae599;
-  top: 11em;
+  top: 25em;
   border: 1px solid;
   border-radius: 0.7em;
 }
