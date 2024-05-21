@@ -210,6 +210,15 @@ nav a:hover {
   padding-left: 15px;
   width: max-content;
 }
+#leftGreenStar {
+  position: absolute;
+  bottom: 8em;
+}
+#rightGreenStar {
+  position: relative;
+  bottom: 30em;
+  left: 77em;
+}
 .whatWeDo {
   background-color: black;
 }
