@@ -169,12 +169,13 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: -12em;
+  right: -13em;
   height: min-content;
   background: #d6eae599;
   top: 4em;
   border: 1px solid;
   border-radius: 0.7em;
+  padding-right: 0.875em;
 }
 .agencyBanners #webDesign p {
   padding-left: 15px;
@@ -190,6 +191,7 @@ nav a:hover {
   top: 3em;
   border: 1px solid;
   border-radius: 0.7em;
+  padding-right: 0.875em;
 }
 .agencyBanners #webHosting p {
   padding-left: 15px;
@@ -205,6 +207,7 @@ nav a:hover {
   top: 25em;
   border: 1px solid;
   border-radius: 0.7em;
+  padding-right: 0.4em;
 }
 .agencyBanners #appDesign p {
   padding-left: 15px;
