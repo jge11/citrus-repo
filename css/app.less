@@ -130,7 +130,7 @@ nav {
 
 .cta {
   background: white;
-  position: absolute;
+  position: relative;
   display: flex;
   border-radius: 11px;
   width: 21em;
@@ -151,7 +151,7 @@ nav {
   row-gap: 16/16em;
   align-items: flex-start;
   left: 91.2/16em;
-  position: absolute;
+  position: relative;
   top: 144/16em;
 
   .messageHeader {
@@ -188,25 +188,30 @@ nav {
     font-weight: 600;
     position: relative;
   }
+  #leftGreenStar {
+    position: relative;
+    bottom: 3em;
+    left: 12em;
+  }
 }
 
 .agencyBanners {
   display: flex;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  // bottom: 192/16em;
 
-  // #banner {
-  //   position: inherit;
-  //   left: 35em;
-  // }
   #webDesign {
     display: inherit;
     align-items: center;
     position: inherit;
-    right: -208/16em;
+    // right: -208/16em;
     height: min-content;
     background: #d6eae599;
-    top: 64/16em;
+    // top: 64/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
@@ -223,10 +228,10 @@ nav {
     display: inherit;
     align-items: center;
     position: inherit;
-    right: -768/16em;
+    // right: -768/16em;
     height: min-content;
     background: #d6eae599;
-    top: 48/16em;
+    // top: 48/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
@@ -243,10 +248,10 @@ nav {
     display: inherit;
     align-items: center;
     position: inherit;
-    right: -704/16em;
+    // right: -704/16em;
     height: min-content;
     background: #d6eae599;
-    top: 400/16em;
+    // top: 400/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 6.4/16em;
@@ -258,20 +263,13 @@ nav {
       width: max-content;
     }
   }
+  #rightGreenStar {
+    position: relative;
+    bottom: 28em;
+    left: 43em;
+  }
 }
 
-// .greenStars {
-//   display: flex;
-//   position: relative;
-//   justify-content: space-between;
-#leftGreenStar {
-  position: inherit;
-}
-
-#rightGreenStar {
-  position: inherit;
-}
-// }
 // What we do section
 
 .whatWeDo {

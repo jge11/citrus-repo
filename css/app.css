@@ -106,7 +106,7 @@ nav a:hover {
 }
 .cta {
   background: white;
-  position: absolute;
+  position: relative;
   display: flex;
   border-radius: 11px;
   width: 21em;
@@ -125,7 +125,7 @@ nav a:hover {
   row-gap: 1em;
   align-items: flex-start;
   left: 5.7em;
-  position: absolute;
+  position: relative;
   top: 9em;
 }
 .agencyIntro .messageHeader {
@@ -160,19 +160,25 @@ nav a:hover {
   font-weight: 600;
   position: relative;
 }
+.agencyIntro #leftGreenStar {
+  position: relative;
+  bottom: 3em;
+  left: 12em;
+}
 .agencyBanners {
   display: flex;
   position: relative;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .agencyBanners #webDesign {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: -13em;
   height: min-content;
   background: #d6eae599;
-  top: 4em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
@@ -185,10 +191,8 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: -48em;
   height: min-content;
   background: #d6eae599;
-  top: 3em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
@@ -201,10 +205,8 @@ nav a:hover {
   display: inherit;
   align-items: center;
   position: inherit;
-  right: -44em;
   height: min-content;
   background: #d6eae599;
-  top: 25em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.4em;
@@ -213,11 +215,10 @@ nav a:hover {
   padding-left: 15px;
   width: max-content;
 }
-#leftGreenStar {
-  position: inherit;
-}
-#rightGreenStar {
-  position: inherit;
+.agencyBanners #rightGreenStar {
+  position: relative;
+  bottom: 28em;
+  left: 43em;
 }
 .whatWeDo {
   background-color: black;
