@@ -101,6 +101,12 @@ nav a:hover {
     left: 0;
   }
 }
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
 .landingSection {
   background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
@@ -111,6 +117,7 @@ nav a:hover {
   border-radius: 11px;
   width: 21em;
   left: 2em;
+  top: 10em;
   justify-content: center;
 }
 #uiUx {
@@ -126,7 +133,7 @@ nav a:hover {
   align-items: flex-start;
   left: 5.7em;
   position: relative;
-  top: 9em;
+  margin-top: 9em;
 }
 .agencyIntro .messageHeader {
   font-size: 3.9em;
@@ -135,6 +142,7 @@ nav a:hover {
   flex-direction: column;
   font-weight: 600;
   line-height: 1.2em;
+  color: #3e5856;
 }
 .agencyIntro .messageHeader #agency {
   color: #096d7a;
@@ -159,29 +167,24 @@ nav a:hover {
   line-height: 22.68px;
   font-weight: 600;
   position: relative;
+  border: none;
 }
 .agencyIntro #leftGreenStar {
   position: relative;
   bottom: 3em;
   left: 12em;
 }
-.agencyBanners {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 .agencyBanners #webDesign {
   display: inherit;
   align-items: center;
-  position: inherit;
-  height: min-content;
+  position: relative;
+  max-width: min-content;
   background: #d6eae599;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
+  float: inline-start;
+  bottom: 30em;
 }
 .agencyBanners #webDesign p {
   padding-left: 15px;
@@ -190,12 +193,15 @@ nav a:hover {
 .agencyBanners #webHosting {
   display: inherit;
   align-items: center;
-  position: inherit;
+  position: relative;
   height: min-content;
   background: #d6eae599;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
+  float: right;
+  bottom: 32em;
+  right: 8em;
 }
 .agencyBanners #webHosting p {
   padding-left: 15px;
@@ -204,12 +210,13 @@ nav a:hover {
 .agencyBanners #appDesign {
   display: inherit;
   align-items: center;
-  position: inherit;
+  position: relative;
   height: min-content;
   background: #d6eae599;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.4em;
+  bottom: 10em;
 }
 .agencyBanners #appDesign p {
   padding-left: 15px;

@@ -121,9 +121,13 @@ nav {
 
 //hero section tablet mode
 // @media only screen and (max-width: 768px) {
-//   .heroSection {
-//   }
 // }
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
 .landingSection {
   background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
@@ -135,6 +139,7 @@ nav {
   border-radius: 11px;
   width: 21em;
   left: 2em;
+  top: 10em;
   justify-content: center;
 }
 
@@ -152,7 +157,7 @@ nav {
   align-items: flex-start;
   left: 91.2/16em;
   position: relative;
-  top: 144/16em;
+  margin-top: 144/16em;
 
   .messageHeader {
     font-size: 62.4/16em;
@@ -161,6 +166,7 @@ nav {
     flex-direction: column;
     font-weight: 600;
     line-height: 19.2/16em;
+    color: #3e5856;
 
     #agency {
       color: #096d7a;
@@ -187,6 +193,7 @@ nav {
     line-height: 22.68px;
     font-weight: 600;
     position: relative;
+    border: none;
   }
   #leftGreenStar {
     position: relative;
@@ -196,25 +203,26 @@ nav {
 }
 
 .agencyBanners {
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  // bottom: 192/16em;
+  // display: flex;
+  // position: relative;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // align-items: center;
+  // // bottom: 192/16em;
 
   #webDesign {
     display: inherit;
     align-items: center;
-    position: inherit;
+    position: relative;
     // right: -208/16em;
-    height: min-content;
+    max-width: min-content;
     background: #d6eae599;
     // top: 64/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
+    float: inline-start;
+    bottom: 30em;
 
     // width: max-content;
 
@@ -227,7 +235,7 @@ nav {
   #webHosting {
     display: inherit;
     align-items: center;
-    position: inherit;
+    position: relative;
     // right: -768/16em;
     height: min-content;
     background: #d6eae599;
@@ -235,6 +243,9 @@ nav {
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
+    float: right;
+    bottom: 32em;
+    right: 8em;
 
     // width: max-content;
 
@@ -247,7 +258,7 @@ nav {
   #appDesign {
     display: inherit;
     align-items: center;
-    position: inherit;
+    position: relative;
     // right: -704/16em;
     height: min-content;
     background: #d6eae599;
@@ -255,8 +266,8 @@ nav {
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 6.4/16em;
-
     // width: max-content;
+    bottom: 10em;
 
     p {
       padding-left: 15px;
