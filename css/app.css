@@ -115,17 +115,24 @@ nav a:hover {
   position: relative;
   display: flex;
   border-radius: 11px;
-  width: 21em;
+  width: max-content;
   left: 2em;
   top: 10em;
-  justify-content: center;
+  align-items: center;
 }
-#uiUx {
+.cta #uiUx {
+  padding: 6px 12px 6px 8px;
+  color: #ffffff;
   background-color: #faad00;
   border-radius: 15px;
   margin-right: 5px;
   margin-left: 9px;
   position: relative;
+}
+.cta #designCTA {
+  color: #566d6b;
+  font-weight: 500;
+  padding-right: 1em;
 }
 .agencyIntro {
   display: grid;
