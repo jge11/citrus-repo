@@ -175,32 +175,30 @@ nav a:hover {
   left: 12em;
 }
 .agencyBanners #webDesign {
-  display: inherit;
+  display: flex;
   align-items: center;
-  position: relative;
-  max-width: min-content;
+  position: absolute;
+  max-width: fit-content;
   background: #d6eae599;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
-  float: inline-start;
-  bottom: 30em;
+  top: 10em;
 }
 .agencyBanners #webDesign p {
   padding-left: 15px;
   width: max-content;
 }
 .agencyBanners #webHosting {
-  display: inherit;
+  display: flex;
   align-items: center;
-  position: relative;
-  height: min-content;
+  position: absolute;
+  max-width: fit-content;
   background: #d6eae599;
+  top: 10em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
-  float: right;
-  bottom: 32em;
   right: 8em;
 }
 .agencyBanners #webHosting p {
@@ -208,15 +206,16 @@ nav a:hover {
   width: max-content;
 }
 .agencyBanners #appDesign {
-  display: inherit;
+  display: flex;
   align-items: center;
-  position: relative;
-  height: min-content;
+  position: absolute;
+  max-width: fit-content;
   background: #d6eae599;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.4em;
-  bottom: 10em;
+  top: 30em;
+  right: 15em;
 }
 .agencyBanners #appDesign p {
   padding-left: 15px;
