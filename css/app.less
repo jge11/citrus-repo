@@ -119,15 +119,13 @@ nav {
   }
 }
 
-//hero section tablet mode
-// @media only screen and (max-width: 768px) {
-// }
 .heroSection {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow-y: hidden;
 }
+
 .landingSection {
   background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
@@ -210,6 +208,7 @@ nav {
 }
 
 .agencyBanners {
+  display: grid;
   #webDesign {
     display: flex;
     align-items: center;
@@ -219,7 +218,7 @@ nav {
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
-    top: 160/16em;
+    margin-top: 48/16em;
 
     p {
       padding-left: 15px;
@@ -233,11 +232,12 @@ nav {
     position: absolute;
     max-width: fit-content;
     background: #d6eae599;
-    top: 160/16em;
+    right: 0;
+    margin-right: 80/16em;
+    margin-top: 48/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 14/16em;
-    right: 128/16em;
 
     p {
       padding-left: 15px;
@@ -251,13 +251,11 @@ nav {
     position: absolute;
     max-width: fit-content;
     background: #d6eae599;
-    // top: 400/16em;
+    margin-top: 384/16em;
+    margin-left: 240/16em;
     border: 1px solid;
     border-radius: 0.7em;
     padding-right: 6.4/16em;
-    // width: max-content;
-    top: 30em;
-    right: 15em;
 
     p {
       padding-left: 15px;
@@ -267,17 +265,41 @@ nav {
 
   @media only screen and (min-width: 2400px) {
     #appDesign {
-      top: 25em;
+      margin-top: 288/16em;
     }
   }
+
   #rightGreenStar {
     position: relative;
-    bottom: 28em;
+    bottom: 448/16em;
     float: right;
   }
   @media only screen and (min-width: 2000px) {
     #rightGreenStar {
-      bottom: 22em;
+      bottom: 352/16em;
+    }
+  }
+}
+
+//hero section tablet mode
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    display: grid;
+    gap: 32/16rem;
+    grid-template-columns: 1fr;
+  }
+
+  .agencyBanners {
+    #webDesign {
+      // position: fixed;
+    }
+
+    #webHosting {
+      // position: fixed;
+    }
+
+    #appDesign {
+      // position: fixed;
     }
   }
 }

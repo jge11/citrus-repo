@@ -181,6 +181,9 @@ nav a:hover {
   bottom: 3em;
   left: 12em;
 }
+.agencyBanners {
+  display: grid;
+}
 .agencyBanners #webDesign {
   display: flex;
   align-items: center;
@@ -190,7 +193,7 @@ nav a:hover {
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
-  top: 10em;
+  margin-top: 3em;
 }
 .agencyBanners #webDesign p {
   padding-left: 15px;
@@ -202,11 +205,12 @@ nav a:hover {
   position: absolute;
   max-width: fit-content;
   background: #d6eae599;
-  top: 10em;
+  right: 0;
+  margin-right: 5em;
+  margin-top: 3em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.875em;
-  right: 8em;
 }
 .agencyBanners #webHosting p {
   padding-left: 15px;
@@ -218,11 +222,11 @@ nav a:hover {
   position: absolute;
   max-width: fit-content;
   background: #d6eae599;
+  margin-top: 24em;
+  margin-left: 15em;
   border: 1px solid;
   border-radius: 0.7em;
   padding-right: 0.4em;
-  top: 30em;
-  right: 15em;
 }
 .agencyBanners #appDesign p {
   padding-left: 15px;
@@ -230,7 +234,7 @@ nav a:hover {
 }
 @media only screen and (min-width: 2400px) {
   .agencyBanners #appDesign {
-    top: 25em;
+    margin-top: 18em;
   }
 }
 .agencyBanners #rightGreenStar {
@@ -241,6 +245,13 @@ nav a:hover {
 @media only screen and (min-width: 2000px) {
   .agencyBanners #rightGreenStar {
     bottom: 22em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr;
   }
 }
 .whatWeDo {
