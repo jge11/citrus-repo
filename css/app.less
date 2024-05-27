@@ -167,8 +167,6 @@ nav {
   .messageHeader {
     font-size: 62.4/16em;
     display: inherit;
-    flex-wrap: wrap;
-    flex-direction: column;
     font-weight: 600;
     line-height: 19.2/16em;
     color: #3e5856;
@@ -186,6 +184,7 @@ nav {
     font-weight: 400;
     line-height: 20.8/16em;
     color: #3e585699;
+    word-break: break-word;
   }
   .contactUs {
     width: 128/16em;
@@ -293,6 +292,12 @@ nav {
 @media only screen and (max-width: 580px) {
   .agencyBanners {
     display: none;
+  }
+
+  .agencyIntro {
+    .messageHeader {
+      font-size: 46.4/16em;
+    }
   }
 }
 
