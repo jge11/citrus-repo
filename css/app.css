@@ -254,6 +254,11 @@ nav a:hover {
     grid-template-columns: 1fr;
   }
 }
+@media only screen and (max-width: 580px) {
+  .agencyBanners {
+    display: none;
+  }
+}
 .whatWeDo {
   background-color: black;
 }
