@@ -13,7 +13,6 @@ img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  // overflow-x: hidden;
 }
 
 html {
@@ -32,6 +31,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-right: 24/16em;
 
   a#imgLink {
     height: 88/16em;
@@ -305,34 +305,68 @@ nav {
 
 .whatWeDoContainer {
   display: grid;
-  justify-items: center;
+  gap: 2em;
+  width: 100%;
+  border: 3px solid;
 
   #textContainer {
     display: grid;
-    // justify-items: center;
-    // max-width: 30em;
+    justify-items: center;
     gap: 16/16em;
     color: #3e5856;
+    margin-left: 5em;
+    margin-right: 5em;
 
     #servicesHeader {
       font-family: Plus Jakarta Sans;
-      font-size: 45px;
+      font-size: 48/16em;
       font-weight: 600;
       line-height: 67.5px;
       letter-spacing: -0.022em;
-      text-align: left;
+      text-align: center;
       display: inherit;
       justify-items: center;
     }
 
     #ourServicesIntro {
       gap: 16/16em;
-      max-width: 30em;
+      max-width: 480/16em;
       font-family: Plus Jakarta Sans;
-      font-size: 16px;
+      font-size: 16/16em;
       font-weight: 400;
       line-height: 22px;
       text-align: center;
+    }
+  }
+  .serviceCards {
+    display: grid;
+    // gap: 160/16em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 48/16em;
+    margin-right: 48/16em;
+    gap: 48/16em;
+
+    #cardText {
+      font-family: Plus Jakarta Sans;
+      font-size: 20/16em;
+      font-weight: 600;
+      line-height: 25.57px;
+      text-align: left;
+      max-width: max-content;
+    }
+
+    #serviceInfo {
+      font-family: Plus Jakarta Sans;
+      font-size: 16/16em;
+      font-weight: 400;
+      line-height: 17.96px;
+      text-align: left;
+    }
+  }
+
+  @media only screen and(max-width: 768px) {
+    .serviceCards {
+      grid-template-columns: 1fr 1fr;
     }
   }
 }

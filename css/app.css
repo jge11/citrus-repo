@@ -27,6 +27,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-right: 1.5em;
 }
 nav a#imgLink {
   height: 5.5em;
@@ -261,20 +262,25 @@ nav a:hover {
 }
 .whatWeDoContainer {
   display: grid;
-  justify-items: center;
+  gap: 2em;
+  width: 100%;
+  border: 3px solid;
 }
 .whatWeDoContainer #textContainer {
   display: grid;
+  justify-items: center;
   gap: 1em;
   color: #3e5856;
+  margin-left: 5em;
+  margin-right: 5em;
 }
 .whatWeDoContainer #textContainer #servicesHeader {
   font-family: Plus Jakarta Sans;
-  font-size: 45px;
+  font-size: 3em;
   font-weight: 600;
   line-height: 67.5px;
   letter-spacing: -0.022em;
-  text-align: left;
+  text-align: center;
   display: inherit;
   justify-items: center;
 }
@@ -282,8 +288,35 @@ nav a:hover {
   gap: 1em;
   max-width: 30em;
   font-family: Plus Jakarta Sans;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: 22px;
   text-align: center;
+}
+.whatWeDoContainer .serviceCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3em;
+  margin-right: 3em;
+  gap: 3em;
+}
+.whatWeDoContainer .serviceCards #cardText {
+  font-family: Plus Jakarta Sans;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 25.57px;
+  text-align: left;
+  max-width: max-content;
+}
+.whatWeDoContainer .serviceCards #serviceInfo {
+  font-family: Plus Jakarta Sans;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 17.96px;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .whatWeDoContainer .serviceCards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
