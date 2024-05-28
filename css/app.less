@@ -4,11 +4,16 @@
     font-size: 0.85vw;
   }
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 html {
@@ -30,10 +35,10 @@ nav {
   align-items: center;
 
   a#imgLink {
-    height: 90px;
-    width: 90px;
+    height: 88/16em;
+    width: 88/16em;
     overflow: hidden;
-    margin-left: 20px;
+    margin-left: 24/16em;
   }
   #headerImg {
     width: 112/16em;
@@ -80,7 +85,8 @@ nav {
   background: black;
 }
 
-@media only screen and (max-width: 780px) {
+// header tablet mode styling
+@media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -111,4 +117,193 @@ nav {
   .navMenu.active {
     left: 0;
   }
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow-y: hidden;
+}
+
+.landingSection {
+  background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
+}
+
+.cta {
+  background: white;
+  // position: relative;
+  display: flex;
+  border-radius: 11px;
+  max-width: max-content;
+  left: 32/16em;
+  top: 144/16em;
+  align-items: center;
+
+  #uiUx {
+    padding: 6px 12px 6px 8px;
+    color: #ffffff;
+    background-color: #faad00;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 9px;
+    position: relative;
+  }
+  #designCTA {
+    color: #566d6b;
+    font-weight: 500;
+    padding-right: 1em;
+  }
+}
+
+.agencyIntro {
+  display: grid;
+  row-gap: 16/16em;
+  align-items: flex-start;
+  margin-left: 91.2/16em;
+  position: relative;
+  margin-top: 144/16em;
+  margin-right: 32/16em;
+
+  .messageHeader {
+    font-size: 62.4/16em;
+    display: inherit;
+    font-weight: 600;
+    line-height: 19.2/16em;
+    color: #3e5856;
+
+    #agency {
+      color: #096d7a;
+    }
+  }
+
+  #messageSubText {
+    display: inherit;
+    flex-wrap: wrap;
+    max-width: 368/16em;
+    font-size: 16/16em;
+    font-weight: 400;
+    line-height: 20.8/16em;
+    color: #3e585699;
+    word-break: break-word;
+  }
+  .contactUs {
+    width: 128/16em;
+    height: 40/16em;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #faad00;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 22.68px;
+    font-weight: 600;
+    position: relative;
+    border: none;
+  }
+  #leftGreenStar {
+    position: relative;
+    bottom: 3em;
+    left: 12em;
+  }
+}
+
+.agencyBanners {
+  display: grid;
+  #webDesign {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: fit-content;
+    background: #d6eae599;
+    border: 1px solid;
+    border-radius: 0.7em;
+    padding-right: 14/16em;
+    margin-top: 48/16em;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
+  }
+
+  #webHosting {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: fit-content;
+    background: #d6eae599;
+    right: 0;
+    margin-right: 80/16em;
+    margin-top: 48/16em;
+    border: 1px solid;
+    border-radius: 0.7em;
+    padding-right: 14/16em;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
+  }
+
+  #appDesign {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    max-width: fit-content;
+    background: #d6eae599;
+    margin-top: 384/16em;
+    margin-left: 240/16em;
+    border: 1px solid;
+    border-radius: 0.7em;
+    padding-right: 6.4/16em;
+
+    p {
+      padding-left: 15px;
+      width: max-content;
+    }
+  }
+
+  @media only screen and (min-width: 2400px) {
+    #appDesign {
+      margin-top: 288/16em;
+    }
+  }
+
+  #rightGreenStar {
+    position: relative;
+    bottom: 448/16em;
+    float: right;
+  }
+  @media only screen and (min-width: 2000px) {
+    #rightGreenStar {
+      bottom: 352/16em;
+    }
+  }
+}
+
+//hero section tablet mode
+@media only screen and (max-width: 768px) {
+  .heroSection {
+    display: grid;
+    gap: 32/16rem;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .agencyBanners {
+    display: none;
+  }
+
+  .agencyIntro {
+    .messageHeader {
+      font-size: 46.4/16em;
+    }
+  }
+}
+
+// What we do section
+
+.whatWeDo {
+  background-color: black;
 }

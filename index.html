@@ -7,28 +7,73 @@
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
-    <header class="headerSection">
-      <nav class="navBar">
-        <a id="imgLink" href="/index.html" aria-label="Click to go home">
-          <img id="headerImg" src="/images/citrusLogo.svg" alt="company-logo" />
-        </a>
-        <div class="navigation">
-          <ul class="navMenu">
-            <li><a class="navLink" href="/index.html">Home</a></li>
-            <li><a class="navLink" href="/about.html">About</a></li>
-            <li><a class="navLink" href="/portfolio.html">Projects</a></li>
-            <li><a class="navLink" href="/reviews.html">Testimonials</a></li>
-            <li><a class="navLink" href="/contact.html">Contact</a></li>
-          </ul>
+    <main class="landingSection">
+      <header class="headerSection">
+        <nav class="navBar">
+          <a id="imgLink" href="/index.html" aria-label="Click to go home">
+            <img
+              id="headerImg"
+              src="/images/citrusLogo.svg"
+              alt="company-logo"
+            />
+          </a>
+          <div class="navigation">
+            <ul class="navMenu">
+              <li><a class="navLink" href="/index.html">Home</a></li>
+              <li><a class="navLink" href="/about.html">About</a></li>
+              <li><a class="navLink" href="/portfolio.html">Projects</a></li>
+              <li><a class="navLink" href="/reviews.html">Testimonials</a></li>
+              <li><a class="navLink" href="/contact.html">Contact</a></li>
+            </ul>
 
-          <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </div>
+        </nav>
+      </header>
+      <div class="heroSection">
+        <div class="agencyIntro">
+          <div class="cta">
+            <p id="uiUx">UI/UX</p>
+            <p id="designCTA">Design a professional website and app ui ></p>
+          </div>
+          <h2 class="messageHeader">
+            Digital Creative <span id="agency">Agency</span>
+            <h3 id="messageSubText">
+              Help find solutions with institutive and in accordance with client
+              business goals. we provide a high-quality services.
+            </h3>
+          </h2>
+          <button class="contactUs">Contact Us</button>
+          <img src="images/star.svg" alt="star" id="leftGreenStar" />
         </div>
-      </nav>
-    </header>
+        <div class="agencyBanners">
+          <span id="banner">
+            <img
+              src="images/digitalAgencyBanner.svg"
+              alt="digital agency banner"
+            />
+            <img src="images/star.svg" alt="star" id="rightGreenStar" />
+          </span>
+          <span id="webDesign">
+            <img src="images/webDesignBanner.svg" alt="web design banner" />
+            <p>Website Ui Design</p>
+          </span>
+          <span id="webHosting">
+            <img src="images/webHostingBanner.svg" alt="web hosting banner" />
+            <p>Web Hosting</p>
+          </span>
+          <span id="appDesign">
+            <img src="images/appDesign.svg" alt="app ui design" />
+            <p>App Ui Design</p>
+          </span>
+        </div>
+      </div>
+    </main>
+    <section class="whatWeDo">what we do</section>
     <script src="js/hamburgerMenu.js"></script>
   </body>
 </html>
