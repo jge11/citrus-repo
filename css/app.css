@@ -260,6 +260,31 @@ nav a:hover {
     font-size: 2.9em;
   }
 }
-.whatWeDo {
-  background-color: black;
+.whatWeDoContainer {
+  display: grid;
+  justify-items: center;
+}
+.whatWeDoContainer #textContainer {
+  display: grid;
+  gap: 1em;
+  color: #3e5856;
+}
+.whatWeDoContainer #textContainer #servicesHeader {
+  font-family: Plus Jakarta Sans;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 67.5px;
+  letter-spacing: -0.022em;
+  text-align: left;
+  display: inherit;
+  justify-items: center;
+}
+.whatWeDoContainer #textContainer #ourServicesIntro {
+  gap: 1em;
+  max-width: 30em;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
 }
