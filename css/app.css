@@ -12,7 +12,6 @@ img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 html {
   display: block;
@@ -112,10 +111,9 @@ nav a:hover {
 }
 .cta {
   background: white;
-  position: relative;
   display: flex;
   border-radius: 11px;
-  width: max-content;
+  max-width: max-content;
   left: 2em;
   top: 9em;
   align-items: center;
@@ -138,9 +136,10 @@ nav a:hover {
   display: grid;
   row-gap: 1em;
   align-items: flex-start;
-  left: 5.7em;
+  margin-left: 5.7em;
   position: relative;
   margin-top: 9em;
+  margin-right: 2em;
 }
 .agencyIntro .messageHeader {
   font-size: 3.9em;
