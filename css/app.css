@@ -264,7 +264,8 @@ nav a:hover {
   display: grid;
   gap: 2em;
   width: 100%;
-  border: 3px solid;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 .whatWeDoContainer #textContainer {
   display: grid;
@@ -315,8 +316,40 @@ nav a:hover {
   line-height: 17.96px;
   text-align: left;
 }
+.whatWeDoContainer .serviceCards #designBannerImg {
+  display: flex;
+  width: fit-content;
+  background: #a7d1ce;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #appDesignImg {
+  display: flex;
+  width: fit-content;
+  background: #faad00;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #webHostImg {
+  display: flex;
+  width: fit-content;
+  background: #84fc84;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #developmentImg {
+  display: flex;
+  width: fit-content;
+  background: #ac5454;
+  border-radius: 30px;
+}
 @media only screen and (max-width: 768px) {
   .whatWeDoContainer .serviceCards {
     grid-template-columns: 1fr 1fr;
   }
+}
+.zeroDownPlan {
+  display: grid;
+  gap: 2em;
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: #f5f5f5;
 }
