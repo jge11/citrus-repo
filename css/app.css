@@ -375,3 +375,10 @@ nav a:hover {
   line-height: 1.375em;
   text-align: left;
 }
+.zeroDownPlan .subContextContainer span .perks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.zeroDownPlan .subContextContainer span .perks p {
+  margin: 1em 0em 1em 0em;
+}
