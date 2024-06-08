@@ -407,3 +407,33 @@ nav a:hover {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media only screen and (max-width: 426px) {
+  .zeroDownPlan .subContextContainer {
+    grid-template-columns: 1fr;
+  }
+}
+.whoWeAre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 3.125em;
+  background: linear-gradient(95.66deg, rgba(214, 234, 229, 0.5) 5.24%, rgba(167, 209, 206, 0.5) 94.02%);
+}
+.whoWeAre .companyDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.whoWeAre .companyDescription .descriptionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.8125em;
+}
+@media only screen and (max-width: 426px) {
+  .whoWeAre {
+    grid-template-columns: 1fr;
+  }
+}
