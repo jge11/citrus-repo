@@ -313,6 +313,7 @@ nav a:hover {
   font-weight: 400;
   line-height: 22px;
   text-align: center;
+  color: #3e585699;
 }
 .whatWeDoContainer .serviceCards {
   display: grid;
@@ -444,6 +445,7 @@ nav a:hover {
   justify-items: center;
   border-radius: 3.125em;
   background: linear-gradient(95.66deg, rgba(214, 234, 229, 0.5) 5.24%, rgba(167, 209, 206, 0.5) 94.02%);
+  margin-bottom: 5em;
 }
 .whoWeAre .companyDescription {
   display: flex;
@@ -466,4 +468,26 @@ nav a:hover {
   .whoWeAre {
     grid-template-columns: 1fr;
   }
+}
+.pricingSection {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.pricingSection .pricingSummary {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.pricingSection .pricingSummary #pricingHeader {
+  display: grid;
+  justify-items: center;
+  color: #3e5856;
+  font-size: 2.8125em;
+}
+.pricingSection .pricingSummary #pricingHeader #pricingCTA {
+  max-width: 30em;
+  text-align: center;
+  color: #3e585699;
+  font-size: 0.35555556em;
 }
