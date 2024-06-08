@@ -5,35 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Citrus Sky Web Designs LLC</title>
     <link rel="stylesheet" href="css/app.css" />
+    <script
+      src="https://kit.fontawesome.com/7235a76d3b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <main class="landingSection">
-      <header class="headerSection">
-        <nav class="navBar">
-          <a id="imgLink" href="/index.html" aria-label="Click to go home">
-            <img
-              id="headerImg"
-              src="/images/citrusLogo.svg"
-              alt="company-logo"
-            />
-          </a>
-          <div class="navigation">
-            <ul class="navMenu">
-              <li><a class="navLink" href="/index.html">Home</a></li>
-              <li><a class="navLink" href="/about.html">About</a></li>
-              <li><a class="navLink" href="/portfolio.html">Projects</a></li>
-              <li><a class="navLink" href="/reviews.html">Testimonials</a></li>
-              <li><a class="navLink" href="/contact.html">Contact</a></li>
-            </ul>
+    <header class="headerSection">
+      <nav class="navBar">
+        <a id="imgLink" href="/index.html" aria-label="Click to go home">
+          <img id="headerImg" src="/images/citrusLogo.svg" alt="company-logo" />
+        </a>
+        <div class="navigation">
+          <ul class="navMenu">
+            <li><a class="navLink" href="/index.html">Home</a></li>
+            <li><a class="navLink" href="/about.html">About</a></li>
+            <li><a class="navLink" href="/portfolio.html">Projects</a></li>
+            <li><a class="navLink" href="/reviews.html">Testimonials</a></li>
+            <li><a class="navLink" href="/contact.html">Contact</a></li>
+          </ul>
 
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
+    <main class="landingSection">
       <div class="heroSection">
         <div class="agencyIntro">
           <div class="cta">
@@ -73,7 +73,99 @@
         </div>
       </div>
     </main>
-    <section class="whatWeDo">what we do</section>
+    <section class="whatWeDoContainer">
+      <span id="textContainer">
+        <p id="servicesHeader">
+          What We Do
+          <img src="/images/orangeArrow.svg" alt="orangeArrow" />
+        </p>
+        <p id="ourServicesIntro">
+          We offer web Development, Web Design, and Web Hosting. Or we can swap
+          these out for Mobile First Responsiveness, Fully Responsive, and
+          Optimization.
+        </p>
+      </span>
+
+      <div class="serviceCards">
+        <div id="webDesignCard">
+          <span id="designBannerImg">
+            <img src="/images/webDesignBanner.svg" alt="" />
+          </span>
+          <p id="cardText">Webesite Design</p>
+          <p id="serviceInfo">
+            we offer website design and full responsive and accrative in figma
+            adbobe Xd etc.all types of website
+          </p>
+        </div>
+        <div id="appDesignCard">
+          <span id="appDesignImg">
+            <img src="images/appDesign.svg" alt="" />
+          </span>
+          <p id="cardText">App Desing</p>
+          <p id="serviceInfo">
+            we offer website design and full responsive and accrative in figma
+            adbobe Xd etc.all types of website
+          </p>
+        </div>
+        <div id="webHostCard">
+          <span id="webHostImg">
+            <img src="images/webHostingBanner.svg" alt="" />
+          </span>
+          <p id="cardText">Web Hosting</p>
+          <p id="serviceInfo">
+            we offer website design and full responsive and accrative in figma
+            adbobe Xd etc.all types of website
+          </p>
+        </div>
+        <div id="webDevCard">
+          <span id="developmentImg">
+            <img src="images/webDesignBanner.svg" alt="" />
+          </span>
+          <p id="cardText">Web Development</p>
+          <p id="serviceInfo">
+            we offer website design and full responsive and accrative in figma
+            adbobe Xd etc.all types of website
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="zeroDownPlan">
+      <div class="subContextContainer">
+        <img src="images/moneyMan.svg" alt="money savings" />
+        <span>
+          <p class="zeroDownSubPlan">
+            $0 down, $200 Per Month 12 month minimum contract
+          </p>
+          <p id="servicesOffered">
+            We offer web Development, Web Design, and Web Hosting at a fraction
+            of the cost of our competitors.
+          </p>
+          <div class="perks">
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkOne"></i>Hosting
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkTwo"></i>Web
+              Development
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkThree"></i>Edits
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkFour"></i
+              >Analytics
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkFive"></i>Page
+              Speed Scores
+            </p>
+            <p>
+              <i class="fa-solid fa-circle-check" id="checkMarkSix"></i>Support
+            </p>
+          </div>
+        </span>
+      </div>
+    </section>
     <script src="js/hamburgerMenu.js"></script>
   </body>
 </html>

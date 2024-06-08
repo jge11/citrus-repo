@@ -15,19 +15,20 @@ img {
 }
 html {
   display: block;
+  font-size: 16px;
 }
 header {
-  width: 90%;
   z-index: 999;
   position: sticky;
   top: 0;
-  left: 4%;
+  background: linear-gradient(180deg, #d6eae5 0%, #a7d1ce 100%);
 }
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-right: 1.5em;
 }
 nav a#imgLink {
   height: 5.5em;
@@ -260,6 +261,149 @@ nav a:hover {
     font-size: 2.9em;
   }
 }
-.whatWeDo {
-  background-color: black;
+.whatWeDoContainer {
+  display: grid;
+  gap: 2em;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.whatWeDoContainer #textContainer {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
+  color: #3e5856;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.whatWeDoContainer #textContainer #servicesHeader {
+  font-family: Plus Jakarta Sans;
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 67.5px;
+  letter-spacing: -0.022em;
+  text-align: center;
+  display: inherit;
+  justify-items: center;
+}
+.whatWeDoContainer #textContainer #ourServicesIntro {
+  gap: 1em;
+  max-width: 30em;
+  font-family: Plus Jakarta Sans;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.whatWeDoContainer .serviceCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 3em;
+  margin-right: 3em;
+  gap: 3em;
+}
+.whatWeDoContainer .serviceCards #cardText {
+  font-family: Plus Jakarta Sans;
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 25.57px;
+  text-align: left;
+  max-width: max-content;
+}
+.whatWeDoContainer .serviceCards #serviceInfo {
+  font-family: Plus Jakarta Sans;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 17.96px;
+  text-align: left;
+}
+.whatWeDoContainer .serviceCards #designBannerImg {
+  display: flex;
+  width: fit-content;
+  background: #a7d1ce;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #appDesignImg {
+  display: flex;
+  width: fit-content;
+  background: #faad00;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #webHostImg {
+  display: flex;
+  width: fit-content;
+  background: #84fc84;
+  border-radius: 30px;
+}
+.whatWeDoContainer .serviceCards #developmentImg {
+  display: flex;
+  width: fit-content;
+  background: #ac5454;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .whatWeDoContainer .serviceCards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.zeroDownPlan {
+  display: grid;
+  gap: 2em;
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: #f5f5f5;
+}
+.zeroDownPlan .subContextContainer {
+  display: inherit;
+  grid-template-columns: 1fr 1fr;
+}
+.zeroDownPlan .subContextContainer span {
+  margin: 2em;
+}
+.zeroDownPlan .subContextContainer span .zeroDownSubPlan {
+  font-family: Plus Jakarta Sans;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.5em;
+  text-align: left;
+}
+.zeroDownPlan .subContextContainer span #servicesOffered {
+  font-family: Plus Jakarta Sans;
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.375em;
+  text-align: left;
+}
+.zeroDownPlan .subContextContainer span .perks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkOne {
+  color: #faad00;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkTwo {
+  color: #3e5856;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkThree {
+  color: #84fc84;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkFour {
+  color: #fd5e00;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkFive {
+  color: #a7d1ce;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkSix {
+  color: #03233a;
+}
+.zeroDownPlan .subContextContainer span .perks p {
+  display: flex;
+  gap: 1em;
+}
+@media only screen and (max-width: 768px) {
+  .zeroDownPlan .subContextContainer span .perks {
+    grid-template-columns: 1fr 1fr;
+  }
 }
