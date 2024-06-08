@@ -309,6 +309,7 @@ nav a:hover {
   line-height: 25.57px;
   text-align: left;
   max-width: max-content;
+  color: #3e5856;
 }
 .whatWeDoContainer .serviceCards #serviceInfo {
   font-family: Plus Jakarta Sans;
@@ -316,6 +317,7 @@ nav a:hover {
   font-weight: 400;
   line-height: 17.96px;
   text-align: left;
+  color: #3e585699;
 }
 .whatWeDoContainer .serviceCards #designBannerImg {
   display: flex;
@@ -367,6 +369,7 @@ nav a:hover {
   font-weight: 700;
   line-height: 1.5em;
   text-align: left;
+  color: #3e5856;
 }
 .zeroDownPlan .subContextContainer span #servicesOffered {
   font-family: Plus Jakarta Sans;
@@ -374,6 +377,7 @@ nav a:hover {
   font-weight: 400;
   line-height: 1.375em;
   text-align: left;
+  color: #3e585699;
 }
 .zeroDownPlan .subContextContainer span .perks {
   display: grid;
@@ -401,6 +405,7 @@ nav a:hover {
 .zeroDownPlan .subContextContainer span .perks p {
   display: flex;
   gap: 1em;
+  color: #333333;
 }
 @media only screen and (max-width: 768px) {
   .zeroDownPlan .subContextContainer span .perks {
@@ -426,12 +431,17 @@ nav a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 32em;
 }
 .whoWeAre .companyDescription .descriptionHeader {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 2.8125em;
+  color: #3e5856;
+}
+.whoWeAre .companyDescription .descriptionSubText {
+  color: #3e585699;
 }
 @media only screen and (max-width: 430px) {
   .whoWeAre {
