@@ -359,7 +359,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr;
 }
 .zeroDownPlan .subContextContainer span {
-  margin-right: 2em;
+  margin: 2em;
 }
 .zeroDownPlan .subContextContainer span .zeroDownSubPlan {
   font-family: Plus Jakarta Sans;
@@ -379,6 +379,8 @@ nav a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.zeroDownPlan .subContextContainer span .perks p {
-  margin: 1em 0em 1em 0em;
+@media only screen and (max-width: 768px) {
+  .zeroDownPlan .subContextContainer span .perks {
+    grid-template-columns: 1fr 1fr;
+  }
 }
