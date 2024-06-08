@@ -378,6 +378,29 @@ nav a:hover {
 .zeroDownPlan .subContextContainer span .perks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkOne {
+  color: #faad00;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkTwo {
+  color: #3e5856;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkThree {
+  color: #84fc84;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkFour {
+  color: #fd5e00;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkFive {
+  color: #a7d1ce;
+}
+.zeroDownPlan .subContextContainer span .perks #checkMarkSix {
+  color: #03233a;
+}
+.zeroDownPlan .subContextContainer span .perks p {
+  display: flex;
+  gap: 1em;
 }
 @media only screen and (max-width: 768px) {
   .zeroDownPlan .subContextContainer span .perks {
