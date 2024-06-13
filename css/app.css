@@ -499,6 +499,7 @@ nav a:hover {
 .pricingSection .cardContainer .priceBox {
   display: grid;
   grid-gap: 1em;
+  border: 3px solid black;
 }
 .pricingSection .cardContainer .priceBox h3 {
   font-size: 4em;
