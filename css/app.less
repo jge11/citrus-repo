@@ -590,10 +590,43 @@ nav {
     .priceBox {
       display: grid;
       grid-gap: 16/16em;
-      border: 3px solid black;
+      border: 2px solid #d6eae5;
+      border-radius: 16/16em;
+      justify-items: center;
+
+      .priceHeader {
+        background: #f1f8ff;
+        width: 100%;
+        text-align: center;
+        border-bottom: 2px solid antiquewhite;
+        font-size: 24/16em;
+        border-radius: 8/16em;
+
+        h2 {
+          padding-top: 4/16em;
+          padding-bottom: 4/16em;
+        }
+      }
+
+      .subscriptionHeader {
+        width: 100%;
+        text-align: center;
+        background: #b3f2ff;
+        font-size: 24/16em;
+        border-radius: 8/16em;
+
+        h2 {
+          padding-top: 4/16em;
+          padding-bottom: 4/16em;
+        }
+      }
 
       h3 {
         font-size: 64/16em;
+      }
+      h3#subscriptionPricing:after {
+        content: "/Mo";
+        font-size: 8/16em;
       }
 
       ul > li {

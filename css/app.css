@@ -499,10 +499,39 @@ nav a:hover {
 .pricingSection .cardContainer .priceBox {
   display: grid;
   grid-gap: 1em;
-  border: 3px solid black;
+  border: 2px solid #d6eae5;
+  border-radius: 1em;
+  justify-items: center;
+}
+.pricingSection .cardContainer .priceBox .priceHeader {
+  background: #f1f8ff;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid antiquewhite;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+}
+.pricingSection .cardContainer .priceBox .priceHeader h2 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+.pricingSection .cardContainer .priceBox .subscriptionHeader {
+  width: 100%;
+  text-align: center;
+  background: #b3f2ff;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+}
+.pricingSection .cardContainer .priceBox .subscriptionHeader h2 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 .pricingSection .cardContainer .priceBox h3 {
   font-size: 4em;
+}
+.pricingSection .cardContainer .priceBox h3#subscriptionPricing:after {
+  content: "/Mo";
+  font-size: 0.5em;
 }
 .pricingSection .cardContainer .priceBox ul > li {
   list-style: none;
