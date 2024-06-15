@@ -569,6 +569,9 @@ nav a:hover {
   }
 }
 .footerSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
 }
 .footerSection .leftSideFooter {
@@ -583,4 +586,16 @@ nav a:hover {
 .footerSection .leftSideFooter p > a {
   text-decoration: none;
   color: #ffffffcc;
+}
+.footerSection .rightSideFooter {
+  display: flex;
+  gap: 5em;
+}
+.footerSection .rightSideFooter li {
+  list-style: none;
+  margin-bottom: 0.5em;
+  margin-top: 0.625em;
+}
+.footerSection .rightSideFooter a {
+  text-decoration: none;
 }

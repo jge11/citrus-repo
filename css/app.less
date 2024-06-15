@@ -677,6 +677,9 @@ nav {
 //footer section
 
 .footerSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
 
   .leftSideFooter {
@@ -691,6 +694,20 @@ nav {
     p > a {
       text-decoration: none;
       color: #ffffffcc;
+    }
+  }
+
+  .rightSideFooter {
+    display: flex;
+    gap: 80/16em;
+
+    li {
+      list-style: none;
+      margin-bottom: 8/16em;
+      margin-top: 10/16em;
+    }
+    a {
+      text-decoration: none;
     }
   }
 }
