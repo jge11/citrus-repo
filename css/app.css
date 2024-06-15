@@ -508,8 +508,10 @@ nav a:hover {
   width: 100%;
   text-align: center;
   border-bottom: 2px solid antiquewhite;
-  font-size: 1.5em;
-  border-radius: 0.5em;
+  border-radius: 0.8125em;
+}
+.pricingSection .cardContainer .priceBox .priceHeader #pricingHeader3 {
+  font-size: 0.875em;
 }
 .pricingSection .cardContainer .priceBox .priceHeader h2 {
   padding-top: 0.25em;
@@ -519,7 +521,6 @@ nav a:hover {
   width: 100%;
   text-align: center;
   background: #b3f2ff;
-  font-size: 1.5em;
   border-radius: 0.5em;
 }
 .pricingSection .cardContainer .priceBox .subscriptionHeader h2 {
@@ -535,4 +536,20 @@ nav a:hover {
 }
 .pricingSection .cardContainer .priceBox ul > li {
   list-style: none;
+  margin-bottom: 1em;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30.24px;
+  text-align: left;
+  color: #646464;
+}
+.pricingSection .cardContainer .priceBox ul > li i {
+  display: flex;
+}
+.pricingSection .cardContainer .priceBox ul > li i p {
+  font-family: Plus Jakarta Sans;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: left;
 }
