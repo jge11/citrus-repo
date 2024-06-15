@@ -662,6 +662,7 @@ nav {
         background: #faad00;
         color: #ffffff;
         cursor: pointer;
+        margin-bottom: 16/16em;
       }
     }
   }
@@ -669,6 +670,27 @@ nav {
     .cardContainer {
       display: flex;
       flex-direction: column;
+    }
+  }
+}
+
+//footer section
+
+.footerSection {
+  background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
+
+  .leftSideFooter {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: max-content;
+    gap: 16/16em;
+    padding-left: 64/16em;
+    padding-top: 32/16em;
+    padding-bottom: 32/16em;
+
+    p > a {
+      text-decoration: none;
+      color: #ffffffcc;
     }
   }
 }

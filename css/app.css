@@ -560,10 +560,27 @@ nav a:hover {
   background: #faad00;
   color: #ffffff;
   cursor: pointer;
+  margin-bottom: 1em;
 }
 @media only screen and (max-width: 768px) {
   .pricingSection .cardContainer {
     display: flex;
     flex-direction: column;
   }
+}
+.footerSection {
+  background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
+}
+.footerSection .leftSideFooter {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: max-content;
+  gap: 1em;
+  padding-left: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.footerSection .leftSideFooter p > a {
+  text-decoration: none;
+  color: #ffffffcc;
 }
