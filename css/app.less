@@ -662,11 +662,84 @@ nav {
         background: #faad00;
         color: #ffffff;
         cursor: pointer;
+        margin-bottom: 16/16em;
       }
     }
   }
   @media only screen and(max-width: 768px) {
     .cardContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+//footer section
+
+.footerSection {
+  .footerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
+
+    .leftSideFooter {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: max-content;
+      gap: 16/16em;
+      padding-left: 64/16em;
+      padding-top: 32/16em;
+      padding-bottom: 32/16em;
+
+      p > a {
+        text-decoration: none;
+        color: #ffffffcc;
+      }
+    }
+
+    .rightSideFooter {
+      display: flex;
+      gap: 80/16em;
+
+      ul {
+        h2 {
+          color: #faad00;
+        }
+        li {
+          list-style: none;
+          margin-bottom: 8/16em;
+          margin-top: 10/16em;
+          color: #ffffff;
+        }
+        li:hover {
+          color: #00ffff;
+        }
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .copyRight {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #108e9e;
+  }
+}
+
+@media only screen and(max-width: 768px) {
+  .footerSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .leftSideFooter {
+      padding-left: 0/16em;
+    }
+
+    .rightSideFooter {
       display: flex;
       flex-direction: column;
     }
