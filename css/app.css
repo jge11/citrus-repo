@@ -568,13 +568,13 @@ nav a:hover {
     flex-direction: column;
   }
 }
-.footerSection {
+.footerSection .footerContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: linear-gradient(90deg, #3e5856 0%, #096d7a 100%);
 }
-.footerSection .leftSideFooter {
+.footerSection .footerContainer .leftSideFooter {
   display: grid;
   grid-template-columns: 1fr;
   width: max-content;
@@ -583,28 +583,34 @@ nav a:hover {
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.footerSection .leftSideFooter p > a {
+.footerSection .footerContainer .leftSideFooter p > a {
   text-decoration: none;
   color: #ffffffcc;
 }
-.footerSection .rightSideFooter {
+.footerSection .footerContainer .rightSideFooter {
   display: flex;
   gap: 5em;
 }
-.footerSection .rightSideFooter ul h2 {
+.footerSection .footerContainer .rightSideFooter ul h2 {
   color: #faad00;
 }
-.footerSection .rightSideFooter ul li {
+.footerSection .footerContainer .rightSideFooter ul li {
   list-style: none;
   margin-bottom: 0.5em;
   margin-top: 0.625em;
   color: #ffffff;
 }
-.footerSection .rightSideFooter ul li:hover {
+.footerSection .footerContainer .rightSideFooter ul li:hover {
   color: #00ffff;
 }
-.footerSection .rightSideFooter ul a {
+.footerSection .footerContainer .rightSideFooter ul a {
   text-decoration: none;
+}
+.footerSection .copyRight {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #108e9e;
 }
 @media only screen and (max-width: 768px) {
   .footerSection {
