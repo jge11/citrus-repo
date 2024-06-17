@@ -1,0 +1,19 @@
+.whoWeAre {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 3.125em;
+  background: linear-gradient(95.66deg, rgba(214, 234, 229, 0.5) 5.24%, rgba(167, 209, 206, 0.5) 94.02%);
+  margin-top: 1.875em;
+  margin-bottom: 5em;
+}
+.whoWeAre .descriptionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.8125em;
+  color: #3e5856;
+}
+.whoWeAre .descriptionSubText {
+  display: flex;
+}
