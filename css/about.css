@@ -22,6 +22,7 @@
 }
 .qualityOverQuantity {
   display: grid;
+  justify-items: center;
   gap: 2em;
   width: 100%;
   padding-top: 2em;
@@ -39,4 +40,23 @@
 .qualityOverQuantity #textContainer #qualityHeader {
   font-size: 2.8125em;
   color: #3e5856;
+}
+.qualityOverQuantity #textContainer #qualityServicesIntro {
+  max-width: 40.625em;
+  text-align: center;
+}
+.qualityOverQuantity .serviceCards {
+  display: flex;
+  align-items: center;
+  margin-left: 3em;
+  margin-right: 2em;
+}
+.qualityOverQuantity button {
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1em;
 }
