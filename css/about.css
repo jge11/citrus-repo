@@ -64,3 +64,12 @@
   display: flex;
   justify-content: space-around;
 }
+.formContainer button {
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
