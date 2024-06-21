@@ -62,12 +62,17 @@
 }
 .formContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
 }
 .formContainer .contactInfo .contactHeader {
   color: #3e5856;
 }
 .formContainer .contactInfo .contactDetails {
+  padding-top: 3em;
+}
+.formContainer .contactInfo .contactDetails .phoneLink {
   padding-top: 3em;
 }
 .formContainer .contactInfo .contactDetails p > a {
