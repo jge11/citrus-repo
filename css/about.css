@@ -82,6 +82,12 @@
 .formContainer .contactInfo .contactDetails p > a:hover {
   color: #00bbffcc;
 }
+.formContainer form input {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1em;
+  outline: none;
+}
 .formContainer button {
   width: 14em;
   height: 3em;
