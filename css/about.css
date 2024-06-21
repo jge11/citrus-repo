@@ -91,6 +91,9 @@
   margin-bottom: 1em;
   outline: none;
 }
+.formContainer form #messageText {
+  width: 30em;
+}
 .formContainer button {
   width: 14em;
   height: 3em;
@@ -99,4 +102,5 @@
   color: #ffffff;
   cursor: pointer;
   margin-bottom: 1em;
+  float: inline-end;
 }
