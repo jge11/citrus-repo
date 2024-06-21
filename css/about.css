@@ -64,6 +64,19 @@
   display: flex;
   justify-content: space-around;
 }
+.formContainer .contactInfo .contactHeader {
+  color: #3e5856;
+}
+.formContainer .contactInfo .contactDetails {
+  padding-top: 3em;
+}
+.formContainer .contactInfo .contactDetails p > a {
+  text-decoration: none;
+  color: #000000cc;
+}
+.formContainer .contactInfo .contactDetails p > a:hover {
+  color: #00bbffcc;
+}
 .formContainer button {
   width: 14em;
   height: 3em;
