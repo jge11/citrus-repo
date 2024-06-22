@@ -63,6 +63,12 @@
     margin-right: 32/16em;
   }
 
+  .cardText {
+    font-weight: bold;
+    font-size: 21/16em;
+    font-style: Plus Jakarta Sans;
+  }
+
   button {
     width: 224/16em;
     height: 48/16em;
@@ -84,6 +90,7 @@
   .contactInfo {
     .contactHeader {
       color: #3e5856;
+      font-size: 34/16em;
     }
     .contactDetails {
       padding-top: 48/16em;
@@ -93,7 +100,7 @@
       }
       p > a {
         text-decoration: none;
-        color: #000000cc;
+        color: #3e5856;
       }
       p > a:hover {
         color: #00bbffcc;
@@ -103,19 +110,77 @@
 
   form {
     span.formHeader {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: max-content;
+      h2 {
+        font-size: 45/16em;
+      }
       img {
         padding-bottom: 32/16em;
       }
     }
+
+    .inputFieldHeader {
+      font-size: 12/16em;
+      font-weight: normal;
+      color: #3e5856cc;
+    }
+
     input {
       border: 0px;
       border-bottom: 1px solid gray;
       margin-bottom: 16/16em;
       outline: none;
+      width: 320/16em;
     }
-    #messageText {
+
+    .messageBox {
+      display: grid;
+      padding: 8/16em;
       width: 480/16em;
+
+      #messageText {
+        // border: none;
+        // border-bottom: 1px solid;
+        outline: none;
+        resize: none;
+        height: 96/16em;
+      }
     }
+
+    // .messageBox {
+    //   /* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
+    //   display: grid;
+    // }
+    // .messageBox::after {
+    //   /* Note the weird space! Needed to preventy jumpy behavior */
+    //   content: attr(data-replicated-value) " ";
+
+    //   /* This is how textarea text behaves */
+    //   white-space: pre-wrap;
+
+    //   /* Hidden from view, clicks, and screen readers */
+    //   visibility: hidden;
+    // }
+    // .messageBox > textarea {
+    //   /* You could leave this, but after a user resizes, then it ruins the auto sizing */
+    //   resize: none;
+
+    //   /* Firefox shows scrollbar on growth, you can hide like this. */
+    //   overflow: hidden;
+    // }
+    // .messageBox > textarea,
+    // .messageBox::after {
+    //   /* Identical styling required!! */
+    //   border: 1px solid black;
+    //   padding: 0.5rem;
+    //   font: inherit;
+
+    //   /* Place on top of each other */
+    //   grid-area: 1 / 1 / 2 / 2;
+    // }
   }
 
   button {
