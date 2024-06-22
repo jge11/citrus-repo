@@ -118,6 +118,8 @@
   width: 30em;
 }
 .formContainer form .messageBox #messageText {
+  border: none;
+  border-bottom: 1px solid;
   outline: none;
   resize: none;
   height: 6em;
