@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citrus Sky Web Designs LLC</title>
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <script
+      src="https://kit.fontawesome.com/7235a76d3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="headerSection">
+      <nav class="navBar">
+        <a id="imgLink" href="/index.html" aria-label="Click to go home">
+          <img id="headerImg" src="/images/citrusLogo.svg" alt="company-logo" />
+        </a>
+        <div class="navigation">
+          <ul class="navMenu">
+            <li><a class="navLink" href="/index.html">Home</a></li>
+            <li><a class="navLink" href="/about.html">About</a></li>
+            <li><a class="navLink" href="/projects.html">Projects</a></li>
+            <!-- <li><a class="navLink" href="/reviews.html">Testimonials</a></li> -->
+            <li><a class="navLink" href="/contact.html">Contact</a></li>
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Who we are start -->
+    <section class="whoWeAre">
+      <div class="personalDescription">
+        <p class="descriptionHeader">Who We Are</p>
+        <p class="descriptionSubText">
+          <img src="images/oragneLine.svg" alt="" /> We offer web Development,
+          Web Design, and Web Hosting. Or we can swap these out for Mobile First
+          Responsiveness, Fully Responsive, and Optimization. We offer web
+          Development, Web Design, and Web Hosting. Or we can swap these out for
+          Mobile First Responsiveness, Fully Responsive, and Optimization.We
+          offer web Development, Web Design, and Web Hosting. Or we can swap
+          these out for Mobile First Responsiveness, Fully Responsive, and
+          Optimization.
+        </p>
+      </div>
+      <div class="selfieImage">
+        <div class="bcImg">
+          <img
+            src="images/moneyMan.svg"
+            alt="Javier Garcia Selfie"
+            id="selfie"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- who we are section end -->
+    <!-- Quality over Quantity section star -->
+    <section class="qualityOverQuantity">
+      <span id="textContainer">
+        <p id="qualityHeader">Quality over Quantity</p>
+        <p id="qualityServicesIntro">
+          We offer web Development, Web Design, and Web Hosting. Or we can swap
+          these out for Mobile First Responsiveness, Fully Responsive, and
+          Optimization.
+        </p>
+      </span>
+
+      <div class="serviceCards">
+        <div id="webDesignCard">
+          <span id="designBannerImg">
+            <img src="/images/first.svg" alt="" />
+          </span>
+          <p class="cardText">No Pre-Written content</p>
+          <p id="serviceInfo">
+            We write unique and engaging content around your company. Everyone
+            is unique!
+          </p>
+        </div>
+        <div id="appDesignCard">
+          <span id="appDesignImg">
+            <img src="images/second.svg" alt="" />
+          </span>
+          <p class="cardText">Unbeatable Customer Service</p>
+          <p id="serviceInfo">
+            No automated systems - When you need help the lead developer answers
+            your call.
+          </p>
+        </div>
+        <div id="webHostCard">
+          <span id="webHostImg">
+            <img src="images/third.svg" alt="" />
+          </span>
+          <p class="cardText">No Limits On Design</p>
+          <p id="serviceInfo">
+            No automated systems - When you need help the lead developer answers
+            your call.
+          </p>
+        </div>
+      </div>
+      <a href="/index.html#pricingHeader" class="ourServicesBtn">
+        <button>Our Services</button>
+      </a>
+    </section>
+    <!-- Quality over Quantity section end -->
+    <!-- Drop us a line section start -->
+    <section class="dropUsALine"></section>
+    <!-- Drop us a line section end -->
+    <!-- contact form section start -->
+    <section class="contactForm">
+      <div class="formContainer">
+        <div class="contactInfo">
+          <h2 class="contactHeader">Contact Information</h2>
+          <div class="contactDetails">
+            <p class="emailLink">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:javiergarcia@citrusskywebdesigns.com">
+                javiergarcia@citrusskywebdesigns.com
+              </a>
+            </p>
+            <p class="phoneLink">
+              <i class="fa-solid fa-phone-volume"></i>
+              <a href="tel:+4072057256"> (407)205-7256</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- <form
+          action="mailto:javiergarcia@citrusskywebdesigns.com"
+          method="post"
+        > -->
+        <form name="hotLead" method="POST" data-netlify="true">
+          <span class="formHeader">
+            <h2>Drop us a line</h2>
+            <img src="images/orangeArrow.svg" alt="orangArrow" />
+          </span>
+          <label class="inputFieldHeader" for="firstName">First Name</label
+          ><br />
+          <input type="text" name="fName" value="" />
+          <br />
+          <label class="inputFieldHeader" for="lastName">Last Name</label><br />
+          <input type="text" name="lName" value="" /><br />
+          <label class="inputFieldHeader" for="phoneNumber">Phone Number</label
+          ><br />
+          <input type="text" name="phoneNum" value="" />
+          <br />
+          <label class="inputFieldHeader" for="email">Email</label><br />
+          <input type="text" name="email" value="" /><br />
+          <label class="inputFieldHeader" for="message">Message</label><br />
+          <div class="messageBox">
+            <textarea
+              id="messageText"
+              name="message"
+              placeholder="Write your message here"
+            ></textarea>
+          </div>
+          <br />
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact form section end -->
+    <footer class="footerSection">
+      <div class="footerContainer">
+        <div class="leftSideFooter">
+          <img src="images/citrusDarkLogoFooter.svg" alt="Citrus Logo" />
+          <p class="emailLink">
+            <a href="mailto:javiergarcia@citrusskywebdesigns.com"
+              >Email: javiergarcia@citrusskywebdesigns.com
+            </a>
+          </p>
+          <p class="phoneLink">
+            <a href="tel:+4072057256">Phone: (407)205-7256</a>
+          </p>
+        </div>
+        <div class="rightSideFooter">
+          <ul class="pages">
+            <h2>Navigation</h2>
+            <hr />
+            <a class="navLink" href="/index.html">
+              <li>Home</li>
+            </a>
+            <a class="navLink" href="/about.html">
+              <li>About Us</li>
+            </a>
+            <a class="navLink" href="/projects.html">
+              <li>Projects</li>
+            </a>
+            <a class="navLink" href="/contact.html">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+
+          <ul class="services">
+            <h2>Services</h2>
+            <hr />
+            <li>Hosting</li>
+            <li>Edits</li>
+            <li>Page Speed Scores</li>
+            <li>Web Development</li>
+            <li>Analytics</li>
+            <li>Support</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyRight">
+        <p>Copyright©2024|Citrus Sky Web Designs|All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/hamburgerMenu.js"></script>
+  </body>
+</html>

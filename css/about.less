@@ -1,0 +1,198 @@
+//who we are section start
+.whoWeAre {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16/16em;
+  margin-right: 16/16em;
+  border-radius: 50/16em;
+  background: linear-gradient(
+    95.66deg,
+    rgba(214, 234, 229, 0.5) 5.24%,
+    rgba(167, 209, 206, 0.5) 94.02%
+  );
+  margin-top: 30/16em;
+  margin-bottom: 80/16em;
+
+  .descriptionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 45/16em;
+    color: #3e5856;
+    margin-bottom: 4/16em;
+  }
+
+  .descriptionSubText {
+    display: flex;
+    max-width: 560/16em;
+  }
+}
+//who we are section end
+
+//quality over quantity section start
+.qualityOverQuantity {
+  display: grid;
+  justify-items: center;
+  gap: 32/16em;
+  width: 100%;
+  padding-top: 80/16em;
+  padding-bottom: 80/16em;
+
+  #textContainer {
+    display: flex;
+    gap: 16/16em;
+    color: #3e5856;
+    margin-left: 80/16em;
+    margin-right: 80/16em;
+    flex-direction: column;
+    align-items: center;
+
+    #qualityHeader {
+      font-size: 45/16em;
+      color: #3e5856;
+    }
+    #qualityServicesIntro {
+      max-width: 650/16em;
+      text-align: center;
+    }
+  }
+  .serviceCards {
+    display: flex;
+    align-items: center;
+    margin-left: 48/16em;
+    margin-right: 32/16em;
+  }
+
+  @media only screen and(max-width: 768px) {
+    .serviceCards {
+      display: flex;
+      flex-direction: column;
+
+      // form .messageBox {
+      //   width: auto;
+      // }
+    }
+  }
+
+  .cardText {
+    font-weight: bold;
+    font-size: 21/16em;
+    font-style: Plus Jakarta Sans;
+  }
+
+  button {
+    width: 224/16em;
+    height: 48/16em;
+    border-radius: 8/16em;
+    background: #faad00;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 16/16em;
+  }
+
+  @media only screen and(max-width: 768px) {
+    #textContainer #qualityHeader {
+      text-align: center;
+    }
+    .serviceCards {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+//quality over quantity section end
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160/16em;
+
+  .contactInfo {
+    .contactHeader {
+      color: #3e5856;
+      font-size: 34/16em;
+    }
+    .contactDetails {
+      padding-top: 48/16em;
+
+      .phoneLink {
+        padding-top: 16/16em;
+      }
+      p > a {
+        text-decoration: none;
+        color: #3e5856;
+      }
+      p > a:hover {
+        color: #00bbffcc;
+      }
+    }
+  }
+
+  form {
+    span.formHeader {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: max-content;
+      h2 {
+        font-size: 45/16em;
+      }
+      img {
+        padding-bottom: 32/16em;
+      }
+    }
+
+    .inputFieldHeader {
+      font-size: 12/16em;
+      font-weight: normal;
+      color: #3e5856cc;
+    }
+
+    input {
+      border: 0px;
+      border-bottom: 1px solid gray;
+      margin-bottom: 16/16em;
+      outline: none;
+      width: 320/16em;
+    }
+
+    .messageBox {
+      display: grid;
+      padding: 8/16em;
+      width: 480/16em;
+
+      #messageText {
+        border: none;
+        border-bottom: 1px solid;
+        outline: none;
+        resize: none;
+        height: 96/16em;
+      }
+    }
+  }
+
+  button
+  // #submitButton
+  {
+    width: 224/16em;
+    height: 48/16em;
+    border-radius: 8/16em;
+    background: #faad00;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 16/16em;
+    float: inline-end;
+  }
+}
+
+@media only screen and(max-width: 768px) {
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+
+    form .messageBox {
+      width: auto;
+    }
+  }
+}

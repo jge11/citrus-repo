@@ -1,0 +1,160 @@
+.whoWeAre {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 3.125em;
+  background: linear-gradient(95.66deg, rgba(214, 234, 229, 0.5) 5.24%, rgba(167, 209, 206, 0.5) 94.02%);
+  margin-top: 1.875em;
+  margin-bottom: 5em;
+}
+.whoWeAre .descriptionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.8125em;
+  color: #3e5856;
+  margin-bottom: 0.25em;
+}
+.whoWeAre .descriptionSubText {
+  display: flex;
+  max-width: 35em;
+}
+.qualityOverQuantity {
+  display: grid;
+  justify-items: center;
+  gap: 2em;
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.qualityOverQuantity #textContainer {
+  display: flex;
+  gap: 1em;
+  color: #3e5856;
+  margin-left: 5em;
+  margin-right: 5em;
+  flex-direction: column;
+  align-items: center;
+}
+.qualityOverQuantity #textContainer #qualityHeader {
+  font-size: 2.8125em;
+  color: #3e5856;
+}
+.qualityOverQuantity #textContainer #qualityServicesIntro {
+  max-width: 40.625em;
+  text-align: center;
+}
+.qualityOverQuantity .serviceCards {
+  display: flex;
+  align-items: center;
+  margin-left: 3em;
+  margin-right: 2em;
+}
+@media only screen and (max-width: 768px) {
+  .qualityOverQuantity .serviceCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.qualityOverQuantity .cardText {
+  font-weight: bold;
+  font-size: 1.3125em;
+  font-style: Plus Jakarta Sans;
+}
+.qualityOverQuantity button {
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+@media only screen and (max-width: 768px) {
+  .qualityOverQuantity #textContainer #qualityHeader {
+    text-align: center;
+  }
+  .qualityOverQuantity .serviceCards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+.formContainer .contactInfo .contactHeader {
+  color: #3e5856;
+  font-size: 2.125em;
+}
+.formContainer .contactInfo .contactDetails {
+  padding-top: 3em;
+}
+.formContainer .contactInfo .contactDetails .phoneLink {
+  padding-top: 1em;
+}
+.formContainer .contactInfo .contactDetails p > a {
+  text-decoration: none;
+  color: #3e5856;
+}
+.formContainer .contactInfo .contactDetails p > a:hover {
+  color: #00bbffcc;
+}
+.formContainer form span.formHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: max-content;
+}
+.formContainer form span.formHeader h2 {
+  font-size: 2.8125em;
+}
+.formContainer form span.formHeader img {
+  padding-bottom: 2em;
+}
+.formContainer form .inputFieldHeader {
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #3e5856cc;
+}
+.formContainer form input {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1em;
+  outline: none;
+  width: 20em;
+}
+.formContainer form .messageBox {
+  display: grid;
+  padding: 0.5em;
+  width: 30em;
+}
+.formContainer form .messageBox #messageText {
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  resize: none;
+  height: 6em;
+}
+.formContainer button {
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1em;
+  float: inline-end;
+}
+@media only screen and (max-width: 768px) {
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .formContainer form .messageBox {
+    width: auto;
+  }
+}
