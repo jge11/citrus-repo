@@ -45,8 +45,60 @@
         </p>
       </span>
     </section>
-
     <!-- Get in touch Section End -->
+    <section class="contactForm">
+      <div class="formContainer">
+        <div class="contactInfo">
+          <h2 class="contactHeader">Contact Information</h2>
+          <div class="contactDetails">
+            <p class="emailLink">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:javiergarcia@citrusskywebdesigns.com">
+                javiergarcia@citrusskywebdesigns.com
+              </a>
+            </p>
+            <p class="phoneLink">
+              <i class="fa-solid fa-phone-volume"></i>
+              <a href="tel:+4072057256"> (407)205-7256</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- <form
+          action="mailto:javiergarcia@citrusskywebdesigns.com"
+          method="post"
+        > -->
+        <form name="hotLead" method="POST" data-netlify="true">
+          <span class="formHeader">
+            <h2>Drop us a line</h2>
+            <img src="images/orangeArrow.svg" alt="orangArrow" />
+          </span>
+          <label class="inputFieldHeader" for="firstName">First Name</label
+          ><br />
+          <input type="text" name="fName" value="" />
+          <br />
+          <label class="inputFieldHeader" for="lastName">Last Name</label><br />
+          <input type="text" name="lName" value="" /><br />
+          <label class="inputFieldHeader" for="phoneNumber">Phone Number</label
+          ><br />
+          <input type="text" name="phoneNum" value="" />
+          <br />
+          <label class="inputFieldHeader" for="email">Email</label><br />
+          <input type="text" name="email" value="" /><br />
+          <label class="inputFieldHeader" for="message">Message</label><br />
+          <div class="messageBox">
+            <textarea
+              id="messageText"
+              name="message"
+              placeholder="Write your message here"
+            ></textarea>
+          </div>
+          <br />
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact form section end -->
     <!-- footer section -->
     <footer class="footerSection">
       <div class="footerContainer">

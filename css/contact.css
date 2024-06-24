@@ -14,6 +14,10 @@
   margin-right: 5em;
   flex-direction: column;
   align-items: center;
+  max-width: 22em;
+  text-align: center;
+  color: #3e5856cc;
+  font-style: Plus Jakarta Sans;
 }
 .getInTouchCountainer #textContainer #touchHeader {
   font-size: 2.8125em;
