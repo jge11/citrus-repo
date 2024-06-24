@@ -1,0 +1,24 @@
+.getInTouchCountainer {
+  display: grid;
+  justify-items: center;
+  gap: 2em;
+  width: 100%;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+.getInTouchCountainer #textContainer {
+  display: flex;
+  gap: 1em;
+  color: #3e5856;
+  margin-left: 5em;
+  margin-right: 5em;
+  flex-direction: column;
+  align-items: center;
+}
+.getInTouchCountainer #textContainer #touchHeader {
+  font-size: 2.8125em;
+  color: #3e5856;
+}
+.getInTouchCountainer #textContainer #touchHeader #in {
+  color: #faad00;
+}
