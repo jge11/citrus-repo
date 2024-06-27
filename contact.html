@@ -49,6 +49,7 @@
     <section class="contactForm">
       <div class="formContainer">
         <div class="contactInfo">
+          <img src="images/citrusDarkLogoFooter.svg" alt="Citrus Logo" />
           <h2 class="contactHeader">Contact Information</h2>
           <div class="contactDetails">
             <p class="emailLink">
@@ -64,15 +65,8 @@
           </div>
         </div>
 
-        <!-- <form
-          action="mailto:javiergarcia@citrusskywebdesigns.com"
-          method="post"
-        > -->
-        <form name="hotLead" method="POST" data-netlify="true">
-          <span class="formHeader">
-            <h2>Drop us a line</h2>
-            <img src="images/orangeArrow.svg" alt="orangArrow" />
-          </span>
+        <div class="fillform">
+        <form name="hotLead" method="POST" netlify>
           <label class="inputFieldHeader" for="firstName">First Name</label
           ><br />
           <input type="text" name="fName" value="" id="firstName" required />
@@ -99,6 +93,7 @@
           <br />
           <button type="submit">Send Message</button>
         </form>
+      </div>
       </div>
     </section>
     <!-- contact form section end -->
