@@ -31,6 +31,7 @@
 
 
 .contactForm{
+  margin-bottom: 160/16em;
   .formContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,20 +43,32 @@
     .contactInfo {
       display: grid;
       grid-template-columns: 1fr;
-      background: linear-gradient(180deg, #3E5856 0%, #096D7A 100%);
+      background: linear-gradient(180deg, #3E5856 50%, #096D7A 100%);
+      border-radius: 8/16em;
+      margin-bottom: 16/16em;
       .contactHeader {
         color: #ffffff;
-        font-size: 34/16em;
+        font-size: 24/16em;
+        padding-top: 32/16em;
+        padding-left: 32/16em;
       }
       .contactDetails {
         padding-top: 48/16em;
+        padding-left: 32/16em;
+        padding-right: 32/16em;
+        padding-bottom: 112/16em;
+    
   
         .phoneLink {
           padding-top: 16/16em;
         }
+        i{
+          color: #ffffff;
+        }
         p > a {
           text-decoration: none;
           color: #ffffff;
+          font-size: 16/16em;
         }
         p > a:hover {
           color: #00bbffcc;

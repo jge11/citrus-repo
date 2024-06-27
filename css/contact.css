@@ -26,6 +26,9 @@
 .getInTouchCountainer #textContainer #touchHeader #in {
   color: #faad00;
 }
+.contactForm {
+  margin-bottom: 10em;
+}
 .contactForm .formContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -37,21 +40,32 @@
 .contactForm .formContainer .contactInfo {
   display: grid;
   grid-template-columns: 1fr;
-  background: linear-gradient(180deg, #3e5856 0%, #096d7a 100%);
+  background: linear-gradient(180deg, #3e5856 50%, #096d7a 100%);
+  border-radius: 0.5em;
+  margin-bottom: 1em;
 }
 .contactForm .formContainer .contactInfo .contactHeader {
   color: #ffffff;
-  font-size: 2.125em;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-left: 2em;
 }
 .contactForm .formContainer .contactInfo .contactDetails {
   padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 7em;
 }
 .contactForm .formContainer .contactInfo .contactDetails .phoneLink {
   padding-top: 1em;
 }
+.contactForm .formContainer .contactInfo .contactDetails i {
+  color: #ffffff;
+}
 .contactForm .formContainer .contactInfo .contactDetails p > a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 1em;
 }
 .contactForm .formContainer .contactInfo .contactDetails p > a:hover {
   color: #00bbffcc;
