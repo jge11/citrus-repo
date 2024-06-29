@@ -75,5 +75,64 @@
         }
       }
     }
+    form {
+      span.formHeader {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: max-content;
+        h2 {
+          font-size: 45/16em;
+        }
+        img {
+          padding-bottom: 32/16em;
+        }
+      }
+  
+      .inputFieldHeader {
+        font-size: 12/16em;
+        font-weight: normal;
+        color: #3e5856cc;
+      }
+  
+      input {
+        border: 0px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 16/16em;
+        outline: none;
+        // width: 320/16em;
+      }
+  
+      .messageBox {
+        display: grid;
+        padding: 8/16em;
+        width: 480/16em;
+  
+        #messageText {
+          border: none;
+          border-bottom: 1px solid;
+          outline: none;
+          resize: none;
+          height: 96/16em;
+        }
+      }
+      // .labelContainer{
+      //   display: flex;
+      //   flex-direction: column;
+      //   align-items: center;
+      // }
+    }
   }
 }
+
+@media only screen and(max-width: 768px) {
+  .contactForm{
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+
+    form .messageBox {
+      width: auto;
+    }
+  }
+}}

@@ -70,3 +70,47 @@
 .contactForm .formContainer .contactInfo .contactDetails p > a:hover {
   color: #00bbffcc;
 }
+.contactForm .formContainer form span.formHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: max-content;
+}
+.contactForm .formContainer form span.formHeader h2 {
+  font-size: 2.8125em;
+}
+.contactForm .formContainer form span.formHeader img {
+  padding-bottom: 2em;
+}
+.contactForm .formContainer form .inputFieldHeader {
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #3e5856cc;
+}
+.contactForm .formContainer form input {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1em;
+  outline: none;
+}
+.contactForm .formContainer form .messageBox {
+  display: grid;
+  padding: 0.5em;
+  width: 30em;
+}
+.contactForm .formContainer form .messageBox #messageText {
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  resize: none;
+  height: 6em;
+}
+@media only screen and (max-width: 768px) {
+  .contactForm .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm .formContainer form .messageBox {
+    width: auto;
+  }
+}
