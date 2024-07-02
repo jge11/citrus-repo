@@ -1,10 +1,16 @@
-.projects {
+.projects .projectsContainer {
   display: flex;
   gap: 3em;
   margin-top: 3em;
   margin-bottom: 3em;
 }
-.projects .projectContainer .projectContent {
+.projects .projectsContainer .projectContainer {
+  display: flex;
+  gap: 3em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.projects .projectsContainer .projectContainer .projectContent {
   display: grid;
   grid-gap: 1em;
   border: 2px solid #d6eae5;
