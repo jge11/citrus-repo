@@ -14,6 +14,10 @@
   margin-right: 5em;
   flex-direction: column;
   align-items: center;
+  max-width: 22em;
+  text-align: center;
+  color: #3e5856cc;
+  font-style: Plus Jakarta Sans;
 }
 .getInTouchCountainer #textContainer #touchHeader {
   font-size: 2.8125em;
@@ -21,4 +25,130 @@
 }
 .getInTouchCountainer #textContainer #touchHeader #in {
   color: #faad00;
+}
+.contactForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13.9em;
+}
+.contactForm .formContainer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid #d6eae5;
+  border-radius: 1em;
+  justify-items: center;
+  gap: 6em;
+  margin-left: 1em;
+  margin-right: 1em;
+  max-width: max-content;
+  align-items: center;
+  box-shadow: 0px -1px 13px 10px #f0f8ff;
+}
+.contactForm .formContainer .contactInfo {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: linear-gradient(180deg, #3e5856 50%, #096d7a 100%);
+  border-radius: 0.5em;
+}
+.contactForm .formContainer .contactInfo .contactHeader {
+  color: #ffffff;
+  font-size: 1.5em;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.contactForm .formContainer .contactInfo .contactDetails {
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 7em;
+}
+.contactForm .formContainer .contactInfo .contactDetails .phoneLink {
+  padding-top: 1em;
+}
+.contactForm .formContainer .contactInfo .contactDetails i {
+  color: #ffffff;
+}
+.contactForm .formContainer .contactInfo .contactDetails p > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+}
+.contactForm .formContainer .contactInfo .contactDetails p > a:hover {
+  color: #00bbffcc;
+}
+.contactForm .formContainer form {
+  padding-right: 3em;
+}
+.contactForm .formContainer form .inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+.contactForm .formContainer form .inputContainer span.formHeader {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: max-content;
+}
+.contactForm .formContainer form .inputContainer span.formHeader h2 {
+  font-size: 2.8125em;
+}
+.contactForm .formContainer form .inputContainer span.formHeader img {
+  padding-bottom: 2em;
+}
+.contactForm .formContainer form .inputContainer .inputFieldHeader {
+  font-size: 0.75em;
+  font-weight: normal;
+  color: #3e5856cc;
+  margin-right: 3em;
+}
+.contactForm .formContainer form .inputContainer input {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1em;
+  outline: none;
+}
+.contactForm .formContainer form .inputContainer .messageBox {
+  display: grid;
+  padding: 0.5em;
+  width: 30em;
+}
+.contactForm .formContainer form .inputContainer .messageBox #messageText {
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  resize: none;
+  height: 6em;
+}
+.contactForm .formContainer form button {
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1em;
+  float: inline-end;
+}
+@media only screen and (max-width: 768px) {
+  .contactForm .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm .formContainer form .inputContainer .formRadioBtn {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contactForm .formContainer form .inputContainer .messageBox {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .contactForm .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactForm .formContainer form .inputContainer .formRadioBtn {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }

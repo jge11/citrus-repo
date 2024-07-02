@@ -45,8 +45,69 @@
         </p>
       </span>
     </section>
-
     <!-- Get in touch Section End -->
+    <section class="contactForm">
+      <div class="formContainer">
+        <div class="contactInfo">
+          <img src="images/citrusDarkLogoFooter.svg" alt="Citrus Logo" />
+          <h2 class="contactHeader">Contact Information</h2>
+          <div class="contactDetails">
+            <p class="emailLink">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:javiergarcia@citrusskywebdesigns.com">
+                javiergarcia@citrusskywebdesigns.com
+              </a>
+            </p>
+            <p class="phoneLink">
+              <i class="fa-solid fa-phone-volume"></i>
+              <a href="tel:+4072057256"> (407)205-7256</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="fillform">
+          <form name="hotLead" method="POST" netlify>
+            <div class="inputContainer">
+            <label class="inputFieldHeader" for="firstName">First Name</label>
+            <input type="text" name="fName" value="" id="firstName" required />
+
+            <label class="inputFieldHeader" for="lastName">Last Name</label>
+            <input type="text" name="lName" id="lastName" required />
+            <label class="inputFieldHeader" for="phoneNumber">Phone Number</label>
+            <input type="text" name="phoneNum" value="" id="phoneNumber" />
+
+            <label class="inputFieldHeader" for="email">Email</label>
+            <input type="text" name="email" value="" id="email" required />
+            <!-- <div class="formRadioBtn">
+              <input type="radio" name="uiUx" value="" id="uiUx"  />
+              <label class="inputFieldHeader" for="uiUx">Ui/Ux Design</label>
+
+              <input type="radio" name="appDesign" value="" id="appDesign"  />
+              <label class="inputFieldHeader" for="uiUx">App design</label>
+
+              <input type="radio" name="webHosting" value="" id="webHosting"  />
+              <label class="inputFieldHeader" for="webHosting">Web Hosting</label>
+
+              <input type="radio" name="webDevelopment" value="" id="webDevelopment"  />
+              <label class="inputFieldHeader" for="webDevelopment">Web Development</label>
+            </div> -->
+            <label class="inputFieldHeader" for="messageText">Message</label>
+            <div class="messageBox">
+              <textarea
+                id="messageText"
+                name="message"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact form section end -->
     <!-- footer section -->
     <footer class="footerSection">
       <div class="footerContainer">
