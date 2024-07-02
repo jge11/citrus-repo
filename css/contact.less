@@ -29,23 +29,29 @@
   }
 }
 
-
-.contactForm{
-  margin-bottom: 160/16em;
-  .formContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
+.contactForm {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 222.4/16em;
+  .formContainer {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
     border: 2px solid #d6eae5;
     border-radius: 1em;
     justify-items: center;
+    gap: 96/16em;
+    margin-left: 16/16em;
+    margin-right: 16/16em;
+    max-width: max-content;
+    align-items: center;
+    box-shadow: 0px -1px 13px 10px aliceblue;
 
     .contactInfo {
       display: grid;
       grid-template-columns: 1fr;
-      background: linear-gradient(180deg, #3E5856 50%, #096D7A 100%);
+      background: linear-gradient(180deg, #3e5856 50%, #096d7a 100%);
       border-radius: 8/16em;
-      margin-bottom: 16/16em;
       .contactHeader {
         color: #ffffff;
         font-size: 24/16em;
@@ -57,12 +63,11 @@
         padding-left: 32/16em;
         padding-right: 32/16em;
         padding-bottom: 112/16em;
-    
-  
+
         .phoneLink {
           padding-top: 16/16em;
         }
-        i{
+        i {
           color: #ffffff;
         }
         p > a {
@@ -76,63 +81,108 @@
       }
     }
     form {
-      span.formHeader {
+      padding-right: 48/16em;
+      .inputContainer {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        width: max-content;
-        h2 {
-          font-size: 45/16em;
+        span.formHeader {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          width: max-content;
+          h2 {
+            font-size: 45/16em;
+          }
+          img {
+            padding-bottom: 32/16em;
+          }
         }
-        img {
-          padding-bottom: 32/16em;
+
+        .inputFieldHeader {
+          font-size: 12/16em;
+          font-weight: normal;
+          color: #3e5856cc;
+          margin-right: 48/16em;
         }
-      }
-  
-      .inputFieldHeader {
-        font-size: 12/16em;
-        font-weight: normal;
-        color: #3e5856cc;
-      }
-  
-      input {
-        border: 0px;
-        border-bottom: 1px solid gray;
-        margin-bottom: 16/16em;
-        outline: none;
-        // width: 320/16em;
-      }
-  
-      .messageBox {
-        display: grid;
-        padding: 8/16em;
-        width: 480/16em;
-  
-        #messageText {
-          border: none;
-          border-bottom: 1px solid;
+
+        input {
+          border: 0px;
+          border-bottom: 1px solid gray;
+          margin-bottom: 16/16em;
           outline: none;
-          resize: none;
-          height: 96/16em;
+          // width: 320/16em;
         }
+
+        .messageBox {
+          display: grid;
+          padding: 8/16em;
+          width: 480/16em;
+
+          #messageText {
+            border: none;
+            border-bottom: 1px solid;
+            outline: none;
+            resize: none;
+            height: 96/16em;
+          }
+        }
+        // .labelContainer{
+        //   display: flex;
+        //   flex-direction: column;
+        //   align-items: center;
+        // }
       }
-      // .labelContainer{
-      //   display: flex;
-      //   flex-direction: column;
-      //   align-items: center;
-      // }
+      button
+    // #submitButton
+      {
+        width: 224/16em;
+        height: 48/16em;
+        border-radius: 8/16em;
+        background: #faad00;
+        color: #ffffff;
+        cursor: pointer;
+        margin-bottom: 16/16em;
+        float: inline-end;
+      }
     }
   }
 }
 
 @media only screen and(max-width: 768px) {
-  .contactForm{
-  .formContainer {
-    display: flex;
-    flex-direction: column;
+  .contactForm {
+    .formContainer {
+      display: flex;
+      flex-direction: column;
 
-    form .messageBox {
-      width: auto;
+      form {
+        .inputContainer {
+          .formRadioBtn {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .messageBox {
+            width: auto;
+          }
+        }
+      }
     }
   }
-}}
+}
+
+@media only screen and(max-width: 425px) {
+  .contactForm {
+    .formContainer {
+      display: flex;
+      flex-direction: column;
+
+      form {
+        .inputContainer {
+          .formRadioBtn {
+            display: flex;
+            flex-wrap: wrap;
+          }
+        }
+      }
+    }
+}
+}

@@ -67,39 +67,41 @@
 
         <div class="fillform">
           <form name="hotLead" method="POST" netlify>
-            <label class="inputFieldHeader" for="firstName">First Name</label
-            ><br />
+            <div class="inputContainer">
+            <label class="inputFieldHeader" for="firstName">First Name</label>
             <input type="text" name="fName" value="" id="firstName" required />
-            <br />
-            <label class="inputFieldHeader" for="lastName">Last Name</label
-            ><br />
-            <input type="text" name="lName" id="lastName" required /><br />
-            <label class="inputFieldHeader" for="phoneNumber"
-              >Phone Number</label
-            >
-            <br />
+
+            <label class="inputFieldHeader" for="lastName">Last Name</label>
+            <input type="text" name="lName" id="lastName" required />
+            <label class="inputFieldHeader" for="phoneNumber">Phone Number</label>
             <input type="text" name="phoneNum" value="" id="phoneNumber" />
-            <br />
-            <label class="inputFieldHeader" for="email">Email</label><br />
-            <input
-              type="text"
-              name="email"
-              value=""
-              id="email"
-              required
-            /><br />
-            <label class="inputFieldHeader" for="messageText">Message</label
-            ><br />
+
+            <label class="inputFieldHeader" for="email">Email</label>
+            <input type="text" name="email" value="" id="email" required />
+            <div class="formRadioBtn">
+              <input type="radio" name="uiUx" value="" id="uiUx" required />
+              <label class="inputFieldHeader" for="uiUx">Ui/Ux Design</label>
+
+              <input type="radio" name="appDesign" value="" id="appDesign" required />
+              <label class="inputFieldHeader" for="uiUx">App design</label>
+
+              <input type="radio" name="webHosting" value="" id="webHosting" required />
+              <label class="inputFieldHeader" for="webHosting">Web Hosting</label>
+
+              <input type="radio" name="webDevelopment" value="" id="webDevelopment" required />
+              <label class="inputFieldHeader" for="webDevelopment">Web Development</label>
+            </div>
+            <label class="inputFieldHeader" for="messageText">Message</label>
             <div class="messageBox">
               <textarea
                 id="messageText"
                 name="message"
                 placeholder="Write your message here"
                 required
-              >
-              </textarea>
+              ></textarea>
             </div>
-            <br />
+          </div>
+
             <button type="submit">Send Message</button>
           </form>
         </div>
