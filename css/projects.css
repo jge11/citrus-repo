@@ -33,3 +33,14 @@
   border-radius: 1em;
   justify-items: center;
 }
+.projects .projectsContainer .projectContainer .projectContent .imgLinkContainer {
+  max-width: 60em;
+  height: 20em;
+}
+.projects .projectsContainer .projectContainer .projectContent .imgLinkContainer a {
+  height: inherit;
+  display: block;
+}
+.projects .projectsContainer .projectContainer .projectContent .imgLinkContainer a img {
+  height: inherit;
+}
