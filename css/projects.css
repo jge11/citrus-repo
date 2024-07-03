@@ -34,7 +34,7 @@
   justify-items: center;
 }
 .projects .projectsContainer .projectContainer .projectContent .imgLinkContainer {
-  max-width: 60em;
+  max-width: 30em;
   height: 20em;
 }
 .projects .projectsContainer .projectContainer .projectContent .imgLinkContainer a {
@@ -43,4 +43,7 @@
 }
 .projects .projectsContainer .projectContainer .projectContent .imgLinkContainer a img {
   height: inherit;
+}
+.projects .projectsContainer .projectContainer .projectContent p {
+  max-width: 30em;
 }
