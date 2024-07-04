@@ -475,9 +475,6 @@ nav a:hover {
   grid-template-columns: 1fr;
   justify-items: center;
 }
-.pricingSection .pricingSummary {
-  margin-bottom: 2em;
-}
 .pricingSection .pricingSummary #pricingHeader {
   display: grid;
   justify-items: center;
