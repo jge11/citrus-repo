@@ -42,7 +42,7 @@ img {
 
 html {
   display: block;
-  font-size: 16px;
+  font-size: 16/16em;
 }
 
 header {
@@ -72,7 +72,6 @@ nav {
 
   ul.navMenu {
     display: flex;
-    // flex-direction: row;
     justify-content: space-around;
   }
 
@@ -87,12 +86,12 @@ nav {
     color: black;
     text-decoration: none;
   }
-  a:visited {
-    background-color: red;
-  }
   a:hover {
     color: turquoise;
   }
+  // a:active {
+  //   color: red;
+  // }
 }
 
 .hamburger {
@@ -157,9 +156,8 @@ nav {
 
 .cta {
   background: white;
-  // position: relative;
   display: flex;
-  border-radius: 11px;
+  border-radius: 11/16em;
   max-width: max-content;
   left: 32/16em;
   top: 144/16em;
@@ -169,7 +167,7 @@ nav {
     padding: 6px 12px 6px 8px;
     color: #ffffff;
     background-color: #faad00;
-    border-radius: 15px;
+    border-radius: 15/16em;
     margin-right: 5px;
     margin-left: 9px;
     position: relative;
@@ -218,12 +216,16 @@ nav {
     border-radius: 8px 8px 8px 8px;
     background-color: #faad00;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 18/16em;
     cursor: pointer;
-    line-height: 22.68px;
+    line-height: 22.68/16em;
     font-weight: 600;
     position: relative;
     border: none;
+  }
+
+  .contactUs:hover {
+    background: #3e5856;
   }
   #leftGreenStar {
     position: relative;
@@ -246,7 +248,7 @@ nav {
     margin-top: 48/16em;
 
     p {
-      padding-left: 15px;
+      padding-left: 15/16em;
       width: max-content;
     }
   }
@@ -265,7 +267,7 @@ nav {
     padding-right: 14/16em;
 
     p {
-      padding-left: 15px;
+      padding-left: 15/16em;
       width: max-content;
     }
   }
@@ -283,7 +285,7 @@ nav {
     padding-right: 6.4/16em;
 
     p {
-      padding-left: 15px;
+      padding-left: 15/16em;
       width: max-content;
     }
   }
@@ -361,14 +363,13 @@ nav {
       font-family: @font-style;
       font-size: 16/16em;
       font-weight: 400;
-      line-height: 22px;
+      line-height: 22/16em;
       text-align: center;
       color: #3e585699;
     }
   }
   .serviceCards {
     display: grid;
-    // gap: 160/16em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 48/16em;
     margin-right: 48/16em;
@@ -378,7 +379,7 @@ nav {
       font-family: @font-style;
       font-size: 20/16em;
       font-weight: 600;
-      line-height: 25.57px;
+      line-height: 25.57/16em;
       text-align: left;
       max-width: max-content;
       color: #3e5856;
@@ -388,7 +389,7 @@ nav {
       font-family: @font-style;
       font-size: 16/16em;
       font-weight: 400;
-      line-height: 17.96px;
+      line-height: 17.96/16em;
       text-align: left;
       color: #3e585699;
     }
@@ -397,28 +398,28 @@ nav {
       display: flex;
       width: fit-content;
       background: #a7d1ce;
-      border-radius: 30px;
+      border-radius: 30/16em;
     }
 
     #appDesignImg {
       display: flex;
       width: fit-content;
       background: #faad00;
-      border-radius: 30px;
+      border-radius: 30/16em;
     }
 
     #webHostImg {
       display: flex;
       width: fit-content;
       background: #84fc84;
-      border-radius: 30px;
+      border-radius: 30/16em;
     }
 
     #developmentImg {
       display: flex;
       width: fit-content;
       background: #ac5454;
-      border-radius: 30px;
+      border-radius: 30/16em;
     }
   }
 
@@ -435,7 +436,6 @@ nav {
   display: grid;
   gap: 2em;
   width: 100%;
-  // border: 3px solid;
   padding-top: 80/16em;
   padding-bottom: 80/16em;
   background: #f5f5f5;
@@ -545,9 +545,6 @@ nav {
       color: #3e585699;
     }
   }
-  // #selfie {
-  //   // background: #016deb;
-  // }
 
   @media only screen and(max-width: 430px) {
     grid-template-columns: 1fr;
@@ -562,9 +559,6 @@ nav {
   justify-items: center;
 
   .pricingSummary {
-    // display: grid;
-    // align-items: center;
-    // grid-template-columns: 1fr 1fr;
     margin-bottom: 32/16em;
 
     #pricingHeader {
@@ -599,7 +593,6 @@ nav {
         width: 100%;
         text-align: center;
         border-bottom: 2px solid antiquewhite;
-        // font-size: 24/16em;
         border-radius: 13/16em;
 
         #pricingHeader3 {
@@ -615,7 +608,6 @@ nav {
         width: 100%;
         text-align: center;
         background: #b3f2ff;
-        // font-size: 24/16em;
         border-radius: 8/16em;
 
         h2 {
@@ -636,10 +628,10 @@ nav {
         list-style: none;
         margin-bottom: 16/16em;
 
-        font-family: Plus Jakarta Sans;
-        font-size: 24px;
+        font-family: @font-style;
+        font-size: 24/16em;
         font-weight: 700;
-        line-height: 30.24px;
+        line-height: 30.24/16em;
         text-align: left;
         color: #646464;
 
@@ -647,9 +639,9 @@ nav {
           display: flex;
 
           p {
-            font-family: Plus Jakarta Sans;
+            font-family: @font-style;
             font-weight: 400;
-            line-height: 20.16px;
+            line-height: 20.16/16em;
             text-align: left;
           }
         }
@@ -663,6 +655,10 @@ nav {
         color: #ffffff;
         cursor: pointer;
         margin-bottom: 16/16em;
+      }
+
+      button:hover {
+        background: #3e5856;
       }
     }
   }
@@ -688,7 +684,6 @@ nav {
       grid-template-columns: 1fr;
       width: max-content;
       gap: 16/16em;
-      // padding-left: 64/16em;
       padding-top: 32/16em;
       padding-bottom: 32/16em;
 

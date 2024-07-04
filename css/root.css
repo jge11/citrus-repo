@@ -34,7 +34,7 @@ img {
 }
 html {
   display: block;
-  font-size: 16px;
+  font-size: 1em;
 }
 header {
   z-index: 999;
@@ -73,9 +73,6 @@ nav li {
 nav a {
   color: black;
   text-decoration: none;
-}
-nav a:visited {
-  background-color: red;
 }
 nav a:hover {
   color: turquoise;
@@ -170,7 +167,6 @@ nav a:hover {
     align-items: flex-start;
   }
   .footerContainer .rightSideFooter {
-    display: flex;
-    flex-direction: column;
+    flex-direction: inherit;
   }
 }

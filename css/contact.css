@@ -129,6 +129,9 @@
   margin-bottom: 1em;
   float: inline-end;
 }
+.contactForm .formContainer form button:hover {
+  background: #3e5856;
+}
 @media only screen and (max-width: 768px) {
   .contactForm .formContainer {
     display: flex;
