@@ -71,6 +71,9 @@
   cursor: pointer;
   margin-bottom: 1em;
 }
+.qualityOverQuantity button:hover {
+  background: #3e5856;
+}
 @media only screen and (max-width: 768px) {
   .qualityOverQuantity #textContainer #qualityHeader {
     text-align: center;
@@ -148,6 +151,9 @@
   cursor: pointer;
   margin-bottom: 1em;
   float: inline-end;
+}
+.formContainer button:hover {
+  background: #3e5856;
 }
 @media only screen and (max-width: 768px) {
   .formContainer {

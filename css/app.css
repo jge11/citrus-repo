@@ -34,7 +34,7 @@ img {
 }
 html {
   display: block;
-  font-size: 16px;
+  font-size: 1em;
 }
 header {
   z-index: 999;
@@ -132,7 +132,7 @@ nav a:hover {
 .cta {
   background: white;
   display: flex;
-  border-radius: 11px;
+  border-radius: 0.6875em;
   max-width: max-content;
   left: 2em;
   top: 9em;
@@ -142,7 +142,7 @@ nav a:hover {
   padding: 6px 12px 6px 8px;
   color: #ffffff;
   background-color: #faad00;
-  border-radius: 15px;
+  border-radius: 0.9375em;
   margin-right: 5px;
   margin-left: 9px;
   position: relative;
@@ -187,12 +187,15 @@ nav a:hover {
   border-radius: 8px 8px 8px 8px;
   background-color: #faad00;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1.125em;
   cursor: pointer;
-  line-height: 22.68px;
+  line-height: 1.4175em;
   font-weight: 600;
   position: relative;
   border: none;
+}
+.agencyIntro .contactUs:hover {
+  background: #3e5856;
 }
 .agencyIntro #leftGreenStar {
   position: relative;
@@ -214,7 +217,7 @@ nav a:hover {
   margin-top: 3em;
 }
 .agencyBanners #webDesign p {
-  padding-left: 15px;
+  padding-left: 0.9375em;
   width: max-content;
 }
 .agencyBanners #webHosting {
@@ -231,7 +234,7 @@ nav a:hover {
   padding-right: 0.875em;
 }
 .agencyBanners #webHosting p {
-  padding-left: 15px;
+  padding-left: 0.9375em;
   width: max-content;
 }
 .agencyBanners #appDesign {
@@ -247,7 +250,7 @@ nav a:hover {
   padding-right: 0.4em;
 }
 .agencyBanners #appDesign p {
-  padding-left: 15px;
+  padding-left: 0.9375em;
   width: max-content;
 }
 @media only screen and (min-width: 2400px) {
@@ -311,7 +314,7 @@ nav a:hover {
   font-family: Plus Jakarta Sans;
   font-size: 1em;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.375em;
   text-align: center;
   color: #3e585699;
 }
@@ -326,7 +329,7 @@ nav a:hover {
   font-family: Plus Jakarta Sans;
   font-size: 1.25em;
   font-weight: 600;
-  line-height: 25.57px;
+  line-height: 1.598125em;
   text-align: left;
   max-width: max-content;
   color: #3e5856;
@@ -335,7 +338,7 @@ nav a:hover {
   font-family: Plus Jakarta Sans;
   font-size: 1em;
   font-weight: 400;
-  line-height: 17.96px;
+  line-height: 1.1225em;
   text-align: left;
   color: #3e585699;
 }
@@ -343,25 +346,25 @@ nav a:hover {
   display: flex;
   width: fit-content;
   background: #a7d1ce;
-  border-radius: 30px;
+  border-radius: 1.875em;
 }
 .whatWeDoContainer .serviceCards #appDesignImg {
   display: flex;
   width: fit-content;
   background: #faad00;
-  border-radius: 30px;
+  border-radius: 1.875em;
 }
 .whatWeDoContainer .serviceCards #webHostImg {
   display: flex;
   width: fit-content;
   background: #84fc84;
-  border-radius: 30px;
+  border-radius: 1.875em;
 }
 .whatWeDoContainer .serviceCards #developmentImg {
   display: flex;
   width: fit-content;
   background: #ac5454;
-  border-radius: 30px;
+  border-radius: 1.875em;
 }
 @media only screen and (max-width: 768px) {
   .whatWeDoContainer .serviceCards {
@@ -538,9 +541,9 @@ nav a:hover {
   list-style: none;
   margin-bottom: 1em;
   font-family: Plus Jakarta Sans;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: 700;
-  line-height: 30.24px;
+  line-height: 1.89em;
   text-align: left;
   color: #646464;
 }
@@ -550,7 +553,7 @@ nav a:hover {
 .pricingSection .cardContainer .priceBox ul > li i p {
   font-family: Plus Jakarta Sans;
   font-weight: 400;
-  line-height: 20.16px;
+  line-height: 1.26em;
   text-align: left;
 }
 .pricingSection .cardContainer .priceBox button {
@@ -561,6 +564,9 @@ nav a:hover {
   color: #ffffff;
   cursor: pointer;
   margin-bottom: 1em;
+}
+.pricingSection .cardContainer .priceBox button:hover {
+  background: #3e5856;
 }
 @media only screen and (max-width: 768px) {
   .pricingSection .cardContainer {

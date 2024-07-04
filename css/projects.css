@@ -1,24 +1,20 @@
 .projects #projectHeader {
-  display: flex;
-  justify-content: center;
   font-family: Plus Jakarta Sans;
-  font-size: 60px;
+  font-size: 3.75em;
   font-weight: 600;
-  line-height: 75px;
   text-align: center;
 }
 .projects #projectHeader span {
+  color: #096d7a;
   font-family: Plus Jakarta Sans;
-  font-size: 60px;
   font-weight: 600;
-  line-height: 75px;
   text-align: center;
 }
 .projects .projectsContainer {
   display: flex;
   gap: 3em;
   margin-top: 3em;
-  margin-bottom: 3em;
+  margin-bottom: 11.9em;
   align-items: center;
   justify-content: center;
 }
@@ -31,7 +27,7 @@
 .projects .projectsContainer .projectContainer .projectContent {
   display: grid;
   grid-gap: 1em;
-  border: 2px solid #d6eae5;
+  border: 0.5px solid #d6eae5;
   border-radius: 1em;
   justify-items: center;
 }
@@ -50,17 +46,46 @@
 .projects .projectsContainer .projectContainer .projectContent .siteName {
   color: #333333;
   font-family: Plus Jakarta Sans;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20.16px;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.3125em;
   text-align: left;
 }
 .projects .projectsContainer .projectContainer .projectContent p {
   max-width: 30em;
   color: #333333cc;
   font-family: Plus Jakarta Sans;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.125em;
   text-align: left;
+}
+.projects .projectsContainer .projectContainer .projectContent .buttonLink {
+  font-family: Plus Jakarta Sans;
+  font-weight: normal;
+  line-height: 1.4375em;
+  text-align: center;
+  text-decoration: none;
+}
+.projects .projectsContainer .projectContainer .projectContent .buttonLink button {
+  color: #ffffff;
+  width: 14em;
+  height: 3em;
+  border-radius: 0.5em;
+  background: #faad00;
+  cursor: pointer;
+  margin-bottom: 1em;
+  float: inline-end;
+}
+.projects .projectsContainer .projectContainer .projectContent button:hover {
+  background: #3e5856;
+}
+@media only screen and (max-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .projects .projectsContainer {
+    flex-direction: inherit;
+  }
 }
