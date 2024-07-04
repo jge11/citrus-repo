@@ -1,3 +1,6 @@
+.personalDescription {
+  margin-left: 2em;
+}
 .whoWeAre {
   display: flex;
   justify-content: space-between;
@@ -19,6 +22,7 @@
 .whoWeAre .descriptionSubText {
   display: flex;
   max-width: 35em;
+  color: #3e585699;
 }
 .qualityOverQuantity {
   display: grid;
