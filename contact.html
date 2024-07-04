@@ -6,6 +6,8 @@
     <title>Citrus Sky Web Designs LLC</title>
     <link rel="stylesheet" href="css/root.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/dark.css" />
+
     <script
       src="https://kit.fontawesome.com/7235a76d3b.js"
       crossorigin="anonymous"
@@ -26,6 +28,14 @@
             <!-- <li><a class="navLink" href="/reviews.html">Testimonials</a></li> -->
             <li><a class="navLink" href="/contact.html">Contact</a></li>
           </ul>
+          <button
+            class="dark-mode-button top-dark-mode-button"
+            aria-label="dark mode toggle"
+          >
+            <span aria-hidden="true" class="dark-toggle">
+              <span class="DTspan"></span>
+            </span>
+          </button>
 
           <div class="hamburger">
             <span class="bar"></span>
@@ -68,17 +78,25 @@
         <div class="fillform">
           <form name="hotLead" method="POST" netlify>
             <div class="inputContainer">
-            <label class="inputFieldHeader" for="firstName">First Name</label>
-            <input type="text" name="fName" value="" id="firstName" required />
+              <label class="inputFieldHeader" for="firstName">First Name</label>
+              <input
+                type="text"
+                name="fName"
+                value=""
+                id="firstName"
+                required
+              />
 
-            <label class="inputFieldHeader" for="lastName">Last Name</label>
-            <input type="text" name="lName" id="lastName" required />
-            <label class="inputFieldHeader" for="phoneNumber">Phone Number</label>
-            <input type="text" name="phoneNum" value="" id="phoneNumber" />
+              <label class="inputFieldHeader" for="lastName">Last Name</label>
+              <input type="text" name="lName" id="lastName" required />
+              <label class="inputFieldHeader" for="phoneNumber"
+                >Phone Number</label
+              >
+              <input type="text" name="phoneNum" value="" id="phoneNumber" />
 
-            <label class="inputFieldHeader" for="email">Email</label>
-            <input type="text" name="email" value="" id="email" required />
-            <!-- <div class="formRadioBtn">
+              <label class="inputFieldHeader" for="email">Email</label>
+              <input type="text" name="email" value="" id="email" required />
+              <!-- <div class="formRadioBtn">
               <input type="radio" name="uiUx" value="" id="uiUx"  />
               <label class="inputFieldHeader" for="uiUx">Ui/Ux Design</label>
 
@@ -91,16 +109,16 @@
               <input type="radio" name="webDevelopment" value="" id="webDevelopment"  />
               <label class="inputFieldHeader" for="webDevelopment">Web Development</label>
             </div> -->
-            <label class="inputFieldHeader" for="messageText">Message</label>
-            <div class="messageBox">
-              <textarea
-                id="messageText"
-                name="message"
-                placeholder="Write your message here"
-                required
-              ></textarea>
+              <label class="inputFieldHeader" for="messageText">Message</label>
+              <div class="messageBox">
+                <textarea
+                  id="messageText"
+                  name="message"
+                  placeholder="Write your message here"
+                  required
+                ></textarea>
+              </div>
             </div>
-          </div>
 
             <button type="submit">Send Message</button>
           </form>
@@ -159,5 +177,6 @@
     </footer>
     <!-- Footer section end -->
     <script src="js/hamburgerMenu.js"></script>
+    <script src="js/darkMode.js"></script>
   </body>
 </html>
