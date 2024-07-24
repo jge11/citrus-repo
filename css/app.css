@@ -502,6 +502,7 @@ nav a:hover {
   border: 2px solid #d6eae5;
   border-radius: 1em;
   justify-items: center;
+  max-width: 21em;
 }
 .pricingSection .cardContainer .priceBox .priceHeader {
   background: #f1f8ff;
