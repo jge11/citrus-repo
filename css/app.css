@@ -531,10 +531,6 @@ nav a:hover {
 .pricingSection .cardContainer .priceBox h3 {
   font-size: 4em;
 }
-.pricingSection .cardContainer .priceBox h3#subscriptionPricing:after {
-  content: "/Mo";
-  font-size: 0.5em;
-}
 .pricingSection .cardContainer .priceBox ul > li {
   list-style: none;
   margin-bottom: 1em;
